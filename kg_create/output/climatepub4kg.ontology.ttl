@@ -1,0 +1,1022 @@
+@prefix clm: <https://climatepub4kg.github.io/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+clm:APPLIES_TO_REALM a owl:ObjectProperty ;
+    rdfs:label "APPLIES_TO_REALM" ;
+    rdfs:domain clm:Experiment,
+        clm:Source,
+        clm:SourceComponent ;
+    rdfs:range clm:Realm .
+
+clm:ASSOCIATED_WITH_MEMBER a owl:ObjectProperty ;
+    rdfs:label "ASSOCIATED_WITH_MEMBER" ;
+    rdfs:domain clm:Source ;
+    rdfs:range clm:Member .
+
+clm:BELONGS_TO_MIP_ERA a owl:ObjectProperty ;
+    rdfs:label "BELONGS_TO_MIP_ERA" ;
+    rdfs:domain clm:Source ;
+    rdfs:range clm:MIPEra .
+
+clm:CORRESPONDS_TO a owl:ObjectProperty ;
+    rdfs:label "CORRESPONDS_TO" ;
+    rdfs:domain clm:Model ;
+    rdfs:range clm:Source .
+
+clm:COVERS_DOMAIN a owl:ObjectProperty ;
+    rdfs:label "COVERS_DOMAIN" ;
+    rdfs:domain clm:Project,
+        clm:RCM ;
+    rdfs:range clm:Domain .
+
+clm:COVERS_REGION a owl:ObjectProperty ;
+    rdfs:label "COVERS_REGION" ;
+    rdfs:domain clm:RCM ;
+    rdfs:range clm:City,
+        clm:Continent,
+        clm:Country,
+        clm:Country_Subdivision,
+        clm:No_Country_Region,
+        clm:Water_Bodies .
+
+clm:DRIVEN_BY_SOURCE a owl:ObjectProperty ;
+    rdfs:label "DRIVEN_BY_SOURCE" ;
+    rdfs:domain clm:RCM ;
+    rdfs:range clm:Source .
+
+clm:FOCUSES_ON_REALM a owl:ObjectProperty ;
+    rdfs:label "FOCUSES_ON_REALM" ;
+    rdfs:domain clm:Activity ;
+    rdfs:range clm:Realm .
+
+clm:GENERATED_BY_ACTIVITY a owl:ObjectProperty ;
+    rdfs:label "GENERATED_BY_ACTIVITY" ;
+    rdfs:domain clm:Source ;
+    rdfs:range clm:Activity .
+
+clm:HAS_METRIC a owl:ObjectProperty ;
+    rdfs:label "HAS_METRIC" ;
+    rdfs:domain clm:Source ;
+    rdfs:range clm:Metric .
+
+clm:HAS_PHYSICAL_FEATURE a owl:ObjectProperty ;
+    rdfs:label "HAS_PHYSICAL_FEATURE" ;
+    rdfs:domain clm:Source ;
+    rdfs:range clm:PhysicalFeature .
+
+clm:HAS_SIMULATION_TYPE a owl:ObjectProperty ;
+    rdfs:label "HAS_SIMULATION_TYPE" ;
+    rdfs:domain clm:Source ;
+    rdfs:range clm:SimulationType .
+
+clm:HAS_SOURCE_COMPONENT a owl:ObjectProperty ;
+    rdfs:label "HAS_SOURCE_COMPONENT" ;
+    rdfs:domain clm:Source,
+        clm:SourceComponent ;
+    rdfs:range clm:SourceComponent .
+
+clm:HAS_SPATIAL_RESOLUTION a owl:ObjectProperty ;
+    rdfs:label "HAS_SPATIAL_RESOLUTION" ;
+    rdfs:domain clm:Experiment,
+        clm:Source,
+        clm:Variable ;
+    rdfs:range clm:Resolution .
+
+clm:HAS_SUBSEQUENT_VERSION a owl:ObjectProperty ;
+    rdfs:label "HAS_SUBSEQUENT_VERSION" ;
+    rdfs:domain clm:Source,
+        clm:SourceComponent ;
+    rdfs:range clm:Source,
+        clm:SourceComponent .
+
+clm:HAS_SUB_EXPERIMENT a owl:ObjectProperty ;
+    rdfs:label "HAS_SUB_EXPERIMENT" ;
+    rdfs:domain clm:Experiment ;
+    rdfs:range clm:SubExperiment .
+
+clm:INCLUDES_ENSEMBLE_MEMBER a owl:ObjectProperty ;
+    rdfs:label "INCLUDES_ENSEMBLE_MEMBER" ;
+    rdfs:domain clm:Experiment ;
+    rdfs:range clm:Ensemble .
+
+clm:INCLUDES_EXPERIMENT a owl:ObjectProperty ;
+    rdfs:label "INCLUDES_EXPERIMENT" ;
+    rdfs:domain clm:ExperimentFamily ;
+    rdfs:range clm:Experiment .
+
+clm:INHERITED_FROM a owl:ObjectProperty ;
+    rdfs:label "INHERITED_FROM" ;
+    rdfs:domain clm:Source ;
+    rdfs:range clm:Source .
+
+clm:IN_CONTINENT a owl:ObjectProperty ;
+    rdfs:label "IN_CONTINENT" ;
+    rdfs:domain clm:Country ;
+    rdfs:range clm:Continent .
+
+clm:IN_COUNTRY a owl:ObjectProperty ;
+    rdfs:label "IN_COUNTRY" ;
+    rdfs:domain clm:City,
+        clm:Country_Subdivision ;
+    rdfs:range clm:Country .
+
+clm:IS_OF_TYPE a owl:ObjectProperty ;
+    rdfs:label "IS_OF_TYPE" ;
+    rdfs:domain clm:Source ;
+    rdfs:range clm:SourceType .
+
+clm:METHOD_EXPERIMENTS_ON_OBSERVATIONAL_DATASET a owl:ObjectProperty ;
+    rdfs:label "METHOD_EXPERIMENTS_ON_OBSERVATIONAL_DATASET" ;
+    rdfs:domain clm:Method ;
+    rdfs:range clm:ObservationalDataset .
+
+clm:METHOD_HAS_INNOVATION a owl:ObjectProperty ;
+    rdfs:label "METHOD_HAS_INNOVATION" ;
+    rdfs:domain clm:Method ;
+    rdfs:range clm:Innovation .
+
+clm:METHOD_HAS_RESULT a owl:ObjectProperty ;
+    rdfs:label "METHOD_HAS_RESULT" ;
+    rdfs:domain clm:Method ;
+    rdfs:range clm:Result .
+
+clm:METHOD_SOLVES_PROBLEM a owl:ObjectProperty ;
+    rdfs:label "METHOD_SOLVES_PROBLEM" ;
+    rdfs:domain clm:Method ;
+    rdfs:range clm:Problem .
+
+clm:METHOD_USES_METRIC a owl:ObjectProperty ;
+    rdfs:label "METHOD_USES_METRIC" ;
+    rdfs:domain clm:Method ;
+    rdfs:range clm:Metric .
+
+clm:METHOD_USES_MODEL a owl:ObjectProperty ;
+    rdfs:label "METHOD_USES_MODEL" ;
+    rdfs:domain clm:Method ;
+    rdfs:range clm:Model .
+
+clm:METHOD_WORKS_ON_TASK a owl:ObjectProperty ;
+    rdfs:label "METHOD_WORKS_ON_TASK" ;
+    rdfs:domain clm:Method ;
+    rdfs:range clm:Task .
+
+clm:MODEL_EXPERIMENTS_ON_OBSERVATIONAL_DATASET a owl:ObjectProperty ;
+    rdfs:label "MODEL_EXPERIMENTS_ON_OBSERVATIONAL_DATASET" ;
+    rdfs:domain clm:Model ;
+    rdfs:range clm:ObservationalDataset .
+
+clm:MODEL_HAS_RESULT a owl:ObjectProperty ;
+    rdfs:label "MODEL_HAS_RESULT" ;
+    rdfs:domain clm:Model ;
+    rdfs:range clm:Result .
+
+clm:MODEL_SOLVES_PROBLEM a owl:ObjectProperty ;
+    rdfs:label "MODEL_SOLVES_PROBLEM" ;
+    rdfs:domain clm:Model ;
+    rdfs:range clm:Problem .
+
+clm:MODEL_USES_METRIC a owl:ObjectProperty ;
+    rdfs:label "MODEL_USES_METRIC" ;
+    rdfs:domain clm:Model ;
+    rdfs:range clm:Metric .
+
+clm:MODEL_WORKS_FOR_TASK a owl:ObjectProperty ;
+    rdfs:label "MODEL_WORKS_FOR_TASK" ;
+    rdfs:domain clm:Model ;
+    rdfs:range clm:Task .
+
+clm:Name a owl:DatatypeProperty ;
+    rdfs:label "Name" ;
+    rdfs:domain clm:Water_Bodies ;
+    rdfs:range xsd:string .
+
+clm:PAPER_APPLIES_METHOD a owl:ObjectProperty ;
+    rdfs:label "PAPER_APPLIES_METHOD" ;
+    rdfs:domain clm:Paper ;
+    rdfs:range clm:Method .
+
+clm:PAPER_BELONGS_TO_FIELD a owl:ObjectProperty ;
+    rdfs:label "PAPER_BELONGS_TO_FIELD" ;
+    rdfs:domain clm:Paper ;
+    rdfs:range clm:Field .
+
+clm:PAPER_EXPERIMENTS_ON_OBSERVATIONAL_DATASET a owl:ObjectProperty ;
+    rdfs:label "PAPER_EXPERIMENTS_ON_OBSERVATIONAL_DATASET" ;
+    rdfs:domain clm:Paper ;
+    rdfs:range clm:ObservationalDataset .
+
+clm:PAPER_HAS_INNOVATION a owl:ObjectProperty ;
+    rdfs:label "PAPER_HAS_INNOVATION" ;
+    rdfs:domain clm:Paper ;
+    rdfs:range clm:Innovation .
+
+clm:PAPER_HAS_KEYWORD a owl:ObjectProperty ;
+    rdfs:label "PAPER_HAS_KEYWORD" ;
+    rdfs:domain clm:Paper ;
+    rdfs:range clm:Keyword .
+
+clm:PAPER_HAS_MODEL a owl:ObjectProperty ;
+    rdfs:label "PAPER_HAS_MODEL" ;
+    rdfs:domain clm:Paper ;
+    rdfs:range clm:Model .
+
+clm:PAPER_HAS_RESULT a owl:ObjectProperty ;
+    rdfs:label "PAPER_HAS_RESULT" ;
+    rdfs:domain clm:Paper ;
+    rdfs:range clm:Result .
+
+clm:PAPER_MENTIONS a owl:ObjectProperty ;
+    rdfs:label "PAPER_MENTIONS" ;
+    rdfs:domain clm:Paper ;
+    rdfs:range clm:Activity,
+        clm:City,
+        clm:Continent,
+        clm:Country,
+        clm:Country_Subdivision,
+        clm:Experiment,
+        clm:ExperimentFamily,
+        clm:Institute,
+        clm:Instrument,
+        clm:MIPEra,
+        clm:Member,
+        clm:Metric,
+        clm:Natural_Hazard,
+        clm:No_Country_Region,
+        clm:Ocean_Circulation,
+        clm:PhysicalFeature,
+        clm:PhysicalScheme,
+        clm:Platform,
+        clm:Project,
+        clm:Realm,
+        clm:Resolution,
+        clm:SimulationType,
+        clm:Source,
+        clm:SourceComponent,
+        clm:SourceType,
+        clm:Teleconnection,
+        clm:Variable,
+        clm:Water_Bodies,
+        clm:Weather_Event .
+
+clm:PAPER_SOLVES_PROBLEM a owl:ObjectProperty ;
+    rdfs:label "PAPER_SOLVES_PROBLEM" ;
+    rdfs:domain clm:Paper ;
+    rdfs:range clm:Problem .
+
+clm:PAPER_USES_METRIC a owl:ObjectProperty ;
+    rdfs:label "PAPER_USES_METRIC" ;
+    rdfs:domain clm:Paper ;
+    rdfs:range clm:Metric .
+
+clm:PAPER_WORKS_ON_TASK a owl:ObjectProperty ;
+    rdfs:label "PAPER_WORKS_ON_TASK" ;
+    rdfs:domain clm:Paper ;
+    rdfs:range clm:Task .
+
+clm:PARTICIPATED_IN a owl:ObjectProperty ;
+    rdfs:label "PARTICIPATED_IN" ;
+    rdfs:domain clm:Institute ;
+    rdfs:range clm:Project .
+
+clm:PART_OF_ENSEMBLE a owl:ObjectProperty ;
+    rdfs:label "PART_OF_ENSEMBLE" ;
+    rdfs:domain clm:Source ;
+    rdfs:range clm:Ensemble .
+
+clm:PART_OF_PROJECT a owl:ObjectProperty ;
+    rdfs:label "PART_OF_PROJECT" ;
+    rdfs:domain clm:Activity,
+        clm:Experiment,
+        clm:RCM,
+        clm:Source ;
+    rdfs:range clm:Project .
+
+clm:PERFORMED_BY_INSTITUTE a owl:ObjectProperty ;
+    rdfs:label "PERFORMED_BY_INSTITUTE" ;
+    rdfs:domain clm:Experiment ;
+    rdfs:range clm:Institute .
+
+clm:PRODUCED_BY_INSTITUTE a owl:ObjectProperty ;
+    rdfs:label "PRODUCED_BY_INSTITUTE" ;
+    rdfs:domain clm:Source ;
+    rdfs:range clm:Institute .
+
+clm:PRODUCES_VARIABLE a owl:ObjectProperty ;
+    rdfs:label "PRODUCES_VARIABLE" ;
+    rdfs:domain clm:RCM,
+        clm:Source,
+        clm:SourceComponent ;
+    rdfs:range clm:Variable .
+
+clm:RESULT_HAS_METRIC a owl:ObjectProperty ;
+    rdfs:label "RESULT_HAS_METRIC" ;
+    rdfs:domain clm:Result ;
+    rdfs:range clm:Metric .
+
+clm:SAMPLED_AT_FREQUENCY a owl:ObjectProperty ;
+    rdfs:label "SAMPLED_AT_FREQUENCY" ;
+    rdfs:domain clm:Source ;
+    rdfs:range clm:Frequency .
+
+clm:TASK_EXPERIMENTS_ON_OBSERVATIONAL_DATASET a owl:ObjectProperty ;
+    rdfs:label "TASK_EXPERIMENTS_ON_OBSERVATIONAL_DATASET" ;
+    rdfs:domain clm:Task ;
+    rdfs:range clm:ObservationalDataset .
+
+clm:TASK_FACES_PROBLEM a owl:ObjectProperty ;
+    rdfs:label "TASK_FACES_PROBLEM" ;
+    rdfs:domain clm:Task ;
+    rdfs:range clm:Problem .
+
+clm:TASK_USES_METRIC a owl:ObjectProperty ;
+    rdfs:label "TASK_USES_METRIC" ;
+    rdfs:domain clm:Task ;
+    rdfs:range clm:Metric .
+
+clm:USED_IN_EXPERIMENT a owl:ObjectProperty ;
+    rdfs:label "USED_IN_EXPERIMENT" ;
+    rdfs:domain clm:RCM,
+        clm:Source ;
+    rdfs:range clm:Experiment .
+
+clm:USES_FORCING a owl:ObjectProperty ;
+    rdfs:label "USES_FORCING" ;
+    rdfs:domain clm:Experiment ;
+    rdfs:range clm:Forcing .
+
+clm:USES_PHYSICAL_SCHEME a owl:ObjectProperty ;
+    rdfs:label "USES_PHYSICAL_SCHEME" ;
+    rdfs:domain clm:Source ;
+    rdfs:range clm:PhysicalScheme .
+
+clm:_IN a owl:ObjectProperty ;
+    rdfs:label "_IN" ;
+    rdfs:domain clm:_MapDef ;
+    rdfs:range clm:_MapNs .
+
+clm:_applyNeo4jNaming a owl:DatatypeProperty ;
+    rdfs:label "_applyNeo4jNaming" ;
+    rdfs:domain clm:_GraphConfig ;
+    rdfs:range xsd:boolean .
+
+clm:_classLabel a owl:DatatypeProperty ;
+    rdfs:label "_classLabel" ;
+    rdfs:domain clm:_GraphConfig ;
+    rdfs:range xsd:string .
+
+clm:_classNamePropName a owl:DatatypeProperty ;
+    rdfs:label "_classNamePropName" ;
+    rdfs:domain clm:_GraphConfig ;
+    rdfs:range xsd:string .
+
+clm:_dataTypePropertyLabel a owl:DatatypeProperty ;
+    rdfs:label "_dataTypePropertyLabel" ;
+    rdfs:domain clm:_GraphConfig ;
+    rdfs:range xsd:string .
+
+clm:_domainRel a owl:DatatypeProperty ;
+    rdfs:label "_domainRel" ;
+    rdfs:domain clm:_GraphConfig ;
+    rdfs:range xsd:string .
+
+clm:_handleMultival a owl:DatatypeProperty ;
+    rdfs:label "_handleMultival" ;
+    rdfs:domain clm:_GraphConfig ;
+    rdfs:range xsd:string .
+
+clm:_handleRDFTypes a owl:DatatypeProperty ;
+    rdfs:label "_handleRDFTypes" ;
+    rdfs:domain clm:_GraphConfig ;
+    rdfs:range xsd:string .
+
+clm:_handleVocabUris a owl:DatatypeProperty ;
+    rdfs:label "_handleVocabUris" ;
+    rdfs:domain clm:_GraphConfig ;
+    rdfs:range xsd:string .
+
+clm:_keepCustomDataTypes a owl:DatatypeProperty ;
+    rdfs:label "_keepCustomDataTypes" ;
+    rdfs:domain clm:_GraphConfig ;
+    rdfs:range xsd:boolean .
+
+clm:_keepLangTag a owl:DatatypeProperty ;
+    rdfs:label "_keepLangTag" ;
+    rdfs:domain clm:_GraphConfig ;
+    rdfs:range xsd:boolean .
+
+clm:_key a owl:DatatypeProperty ;
+    rdfs:label "_key" ;
+    rdfs:domain clm:_MapDef ;
+    rdfs:range xsd:string .
+
+clm:_local a owl:DatatypeProperty ;
+    rdfs:label "_local" ;
+    rdfs:domain clm:_MapDef ;
+    rdfs:range xsd:string .
+
+clm:_ns a owl:DatatypeProperty ;
+    rdfs:label "_ns" ;
+    rdfs:domain clm:_MapNs ;
+    rdfs:range xsd:string .
+
+clm:_objectPropertyLabel a owl:DatatypeProperty ;
+    rdfs:label "_objectPropertyLabel" ;
+    rdfs:domain clm:_GraphConfig ;
+    rdfs:range xsd:string .
+
+clm:_prefix a owl:DatatypeProperty ;
+    rdfs:label "_prefix" ;
+    rdfs:domain clm:_MapNs ;
+    rdfs:range xsd:string .
+
+clm:_rangeRel a owl:DatatypeProperty ;
+    rdfs:label "_rangeRel" ;
+    rdfs:domain clm:_GraphConfig ;
+    rdfs:range xsd:string .
+
+clm:_relNamePropName a owl:DatatypeProperty ;
+    rdfs:label "_relNamePropName" ;
+    rdfs:domain clm:_GraphConfig ;
+    rdfs:range xsd:string .
+
+clm:_subClassOfRel a owl:DatatypeProperty ;
+    rdfs:label "_subClassOfRel" ;
+    rdfs:domain clm:_GraphConfig ;
+    rdfs:range xsd:string .
+
+clm:_subPropertyOfRel a owl:DatatypeProperty ;
+    rdfs:label "_subPropertyOfRel" ;
+    rdfs:domain clm:_GraphConfig ;
+    rdfs:range xsd:string .
+
+clm:added_from_paper_id a owl:DatatypeProperty ;
+    rdfs:label "added_from_paper_id" ;
+    rdfs:domain clm:Instrument,
+        clm:Metric,
+        clm:Natural_Hazard,
+        clm:Ocean_Circulation,
+        clm:PhysicalFeature,
+        clm:PhysicalScheme,
+        clm:Platform,
+        clm:SimulationType,
+        clm:SourceComponent,
+        clm:Teleconnection,
+        clm:Weather_Event ;
+    rdfs:range xsd:string .
+
+clm:admin1_code a owl:DatatypeProperty ;
+    rdfs:label "admin1_code" ;
+    rdfs:domain clm:City,
+        clm:No_Country_Region ;
+    rdfs:range xsd:string .
+
+clm:admin2_code a owl:DatatypeProperty ;
+    rdfs:label "admin2_code" ;
+    rdfs:domain clm:City,
+        clm:No_Country_Region ;
+    rdfs:range xsd:string .
+
+clm:admin3_code a owl:DatatypeProperty ;
+    rdfs:label "admin3_code" ;
+    rdfs:domain clm:City,
+        clm:No_Country_Region ;
+    rdfs:range xsd:string .
+
+clm:admin4_code a owl:DatatypeProperty ;
+    rdfs:label "admin4_code" ;
+    rdfs:domain clm:City,
+        clm:No_Country_Region ;
+    rdfs:range xsd:string .
+
+clm:alternatenames a owl:DatatypeProperty ;
+    rdfs:label "alternatenames" ;
+    rdfs:domain clm:City,
+        clm:No_Country_Region ;
+    rdfs:range xsd:string .
+
+clm:area_sqkm a owl:DatatypeProperty ;
+    rdfs:label "area_sqkm" ;
+    rdfs:domain clm:Country ;
+    rdfs:range xsd:string .
+
+clm:asciiname a owl:DatatypeProperty ;
+    rdfs:label "asciiname" ;
+    rdfs:domain clm:City,
+        clm:Country_Subdivision,
+        clm:No_Country_Region ;
+    rdfs:range xsd:string .
+
+clm:capital a owl:DatatypeProperty ;
+    rdfs:label "capital" ;
+    rdfs:domain clm:Country ;
+    rdfs:range xsd:string .
+
+clm:cc2 a owl:DatatypeProperty ;
+    rdfs:label "cc2" ;
+    rdfs:domain clm:City,
+        clm:No_Country_Region ;
+    rdfs:range xsd:string .
+
+clm:cf_standard_name a owl:DatatypeProperty ;
+    rdfs:label "cf_standard_name" ;
+    rdfs:domain clm:Variable ;
+    rdfs:range xsd:string .
+
+clm:clm a owl:DatatypeProperty ;
+    rdfs:label "clm" ;
+    rdfs:domain clm:_NsPrefDef ;
+    rdfs:range xsd:string .
+
+clm:clmid a owl:DatatypeProperty ;
+    rdfs:label "clmid" ;
+    rdfs:domain clm:_NsPrefDef ;
+    rdfs:range xsd:string .
+
+clm:code a owl:DatatypeProperty ;
+    rdfs:label "code" ;
+    rdfs:domain clm:Country_Subdivision ;
+    rdfs:range xsd:string .
+
+clm:continent a owl:DatatypeProperty ;
+    rdfs:label "continent" ;
+    rdfs:domain clm:Country ;
+    rdfs:range xsd:string .
+
+clm:country a owl:DatatypeProperty ;
+    rdfs:label "country" ;
+    rdfs:domain clm:Country ;
+    rdfs:range xsd:string .
+
+clm:country_code a owl:DatatypeProperty ;
+    rdfs:label "country_code" ;
+    rdfs:domain clm:City,
+        clm:No_Country_Region ;
+    rdfs:range xsd:string .
+
+clm:currencycode a owl:DatatypeProperty ;
+    rdfs:label "currencycode" ;
+    rdfs:domain clm:Country ;
+    rdfs:range xsd:string .
+
+clm:currencyname a owl:DatatypeProperty ;
+    rdfs:label "currencyname" ;
+    rdfs:domain clm:Country ;
+    rdfs:range xsd:string .
+
+clm:dem a owl:DatatypeProperty ;
+    rdfs:label "dem" ;
+    rdfs:domain clm:City,
+        clm:No_Country_Region ;
+    rdfs:range xsd:string .
+
+clm:east a owl:DatatypeProperty ;
+    rdfs:label "east" ;
+    rdfs:domain clm:Country,
+        clm:Country_Subdivision,
+        clm:Water_Bodies ;
+    rdfs:range xsd:string .
+
+clm:elevation a owl:DatatypeProperty ;
+    rdfs:label "elevation" ;
+    rdfs:domain clm:City,
+        clm:No_Country_Region ;
+    rdfs:range xsd:string .
+
+clm:equivalent_fips_code a owl:DatatypeProperty ;
+    rdfs:label "equivalent_fips_code" ;
+    rdfs:domain clm:Country ;
+    rdfs:range xsd:string .
+
+clm:experiment_title a owl:DatatypeProperty ;
+    rdfs:label "experiment_title" ;
+    rdfs:domain clm:Experiment ;
+    rdfs:range xsd:string .
+
+clm:feature_class a owl:DatatypeProperty ;
+    rdfs:label "feature_class" ;
+    rdfs:domain clm:City,
+        clm:No_Country_Region ;
+    rdfs:range xsd:string .
+
+clm:feature_code a owl:DatatypeProperty ;
+    rdfs:label "feature_code" ;
+    rdfs:domain clm:City,
+        clm:No_Country_Region ;
+    rdfs:range xsd:string .
+
+clm:fips a owl:DatatypeProperty ;
+    rdfs:label "fips" ;
+    rdfs:domain clm:Country ;
+    rdfs:range xsd:string .
+
+clm:geonameid a owl:DatatypeProperty ;
+    rdfs:label "geonameid" ;
+    rdfs:domain clm:City,
+        clm:Continent,
+        clm:Country,
+        clm:Country_Subdivision,
+        clm:No_Country_Region,
+        clm:Water_Bodies ;
+    rdfs:range xsd:string .
+
+clm:id a owl:DatatypeProperty ;
+    rdfs:label "id" ;
+    rdfs:domain clm:Paper ;
+    rdfs:range xsd:string .
+
+clm:iso a owl:DatatypeProperty ;
+    rdfs:label "iso" ;
+    rdfs:domain clm:Continent,
+        clm:Country ;
+    rdfs:range xsd:string .
+
+clm:iso3 a owl:DatatypeProperty ;
+    rdfs:label "iso3" ;
+    rdfs:domain clm:Country ;
+    rdfs:range xsd:string .
+
+clm:isonumeric a owl:DatatypeProperty ;
+    rdfs:label "isonumeric" ;
+    rdfs:domain clm:Country ;
+    rdfs:range xsd:string .
+
+clm:languages a owl:DatatypeProperty ;
+    rdfs:label "languages" ;
+    rdfs:domain clm:Country ;
+    rdfs:range xsd:string .
+
+clm:latitude a owl:DatatypeProperty ;
+    rdfs:label "latitude" ;
+    rdfs:domain clm:City,
+        clm:No_Country_Region ;
+    rdfs:range xsd:string .
+
+clm:longitude a owl:DatatypeProperty ;
+    rdfs:label "longitude" ;
+    rdfs:domain clm:City,
+        clm:No_Country_Region ;
+    rdfs:range xsd:string .
+
+clm:modification_date a owl:DatatypeProperty ;
+    rdfs:label "modification_date" ;
+    rdfs:domain clm:City,
+        clm:No_Country_Region ;
+    rdfs:range xsd:string .
+
+clm:name a owl:DatatypeProperty ;
+    rdfs:label "name" ;
+    rdfs:domain clm:Activity,
+        clm:City,
+        clm:Continent,
+        clm:Country,
+        clm:Country_Subdivision,
+        clm:Domain,
+        clm:Ensemble,
+        clm:Experiment,
+        clm:ExperimentFamily,
+        clm:Field,
+        clm:Forcing,
+        clm:Frequency,
+        clm:GridLabel,
+        clm:Innovation,
+        clm:Institute,
+        clm:Instrument,
+        clm:Keyword,
+        clm:MIPEra,
+        clm:Member,
+        clm:Method,
+        clm:Metric,
+        clm:Model,
+        clm:NaturalHazardType,
+        clm:Natural_Hazard,
+        clm:No_Country_Region,
+        clm:ObservationalDataset,
+        clm:Ocean_Circulation,
+        clm:Paper,
+        clm:PhysicalFeature,
+        clm:PhysicalScheme,
+        clm:Platform,
+        clm:Problem,
+        clm:Project,
+        clm:RCM,
+        clm:Realm,
+        clm:Resolution,
+        clm:Result,
+        clm:SimulationType,
+        clm:Source,
+        clm:SourceComponent,
+        clm:SourceType,
+        clm:SubExperiment,
+        clm:Task,
+        clm:Teleconnection,
+        clm:Variable,
+        clm:Water_Bodies,
+        clm:Weather_Event ;
+    rdfs:range xsd:string .
+
+clm:names a owl:DatatypeProperty ;
+    rdfs:label "names" ;
+    rdfs:domain clm:Activity,
+        clm:Domain,
+        clm:Ensemble,
+        clm:Experiment,
+        clm:ExperimentFamily,
+        clm:Forcing,
+        clm:Frequency,
+        clm:GridLabel,
+        clm:Institute,
+        clm:MIPEra,
+        clm:Member,
+        clm:Project,
+        clm:RCM,
+        clm:Realm,
+        clm:Resolution,
+        clm:Source,
+        clm:SourceType,
+        clm:SubExperiment,
+        clm:Variable ;
+    rdfs:range xsd:string .
+
+clm:neighbours a owl:DatatypeProperty ;
+    rdfs:label "neighbours" ;
+    rdfs:domain clm:Country ;
+    rdfs:range xsd:string .
+
+clm:north a owl:DatatypeProperty ;
+    rdfs:label "north" ;
+    rdfs:domain clm:Country,
+        clm:Country_Subdivision,
+        clm:Water_Bodies ;
+    rdfs:range xsd:string .
+
+clm:paper_id a owl:DatatypeProperty ;
+    rdfs:label "paper_id" ;
+    rdfs:domain clm:Field,
+        clm:Innovation,
+        clm:Method,
+        clm:Model,
+        clm:Problem,
+        clm:Task ;
+    rdfs:range xsd:string .
+
+clm:phone a owl:DatatypeProperty ;
+    rdfs:label "phone" ;
+    rdfs:domain clm:Country ;
+    rdfs:range xsd:string .
+
+clm:population a owl:DatatypeProperty ;
+    rdfs:label "population" ;
+    rdfs:domain clm:City,
+        clm:Country,
+        clm:No_Country_Region ;
+    rdfs:range xsd:string .
+
+clm:postal_code_format a owl:DatatypeProperty ;
+    rdfs:label "postal_code_format" ;
+    rdfs:domain clm:Country ;
+    rdfs:range xsd:string .
+
+clm:postal_code_regex a owl:DatatypeProperty ;
+    rdfs:label "postal_code_regex" ;
+    rdfs:domain clm:Country ;
+    rdfs:range xsd:string .
+
+clm:rcm_version a owl:DatatypeProperty ;
+    rdfs:label "rcm_version" ;
+    rdfs:domain clm:RCM ;
+    rdfs:range xsd:string .
+
+clm:south a owl:DatatypeProperty ;
+    rdfs:label "south" ;
+    rdfs:domain clm:Country,
+        clm:Country_Subdivision,
+        clm:Water_Bodies ;
+    rdfs:range xsd:string .
+
+clm:timezone a owl:DatatypeProperty ;
+    rdfs:label "timezone" ;
+    rdfs:domain clm:City,
+        clm:No_Country_Region ;
+    rdfs:range xsd:string .
+
+clm:title a owl:DatatypeProperty ;
+    rdfs:label "title" ;
+    rdfs:domain clm:Paper ;
+    rdfs:range xsd:string .
+
+clm:tld a owl:DatatypeProperty ;
+    rdfs:label "tld" ;
+    rdfs:domain clm:Country ;
+    rdfs:range xsd:string .
+
+clm:uuid a owl:DatatypeProperty ;
+    rdfs:label "uuid" ;
+    rdfs:domain clm:Activity,
+        clm:City,
+        clm:Continent,
+        clm:Country,
+        clm:Country_Subdivision,
+        clm:Domain,
+        clm:Ensemble,
+        clm:Experiment,
+        clm:ExperimentFamily,
+        clm:Field,
+        clm:Forcing,
+        clm:Frequency,
+        clm:GridLabel,
+        clm:Innovation,
+        clm:Institute,
+        clm:Instrument,
+        clm:Keyword,
+        clm:MIPEra,
+        clm:Member,
+        clm:Method,
+        clm:Metric,
+        clm:Model,
+        clm:NaturalHazardType,
+        clm:Natural_Hazard,
+        clm:No_Country_Region,
+        clm:ObservationalDataset,
+        clm:Ocean_Circulation,
+        clm:Paper,
+        clm:PhysicalFeature,
+        clm:PhysicalScheme,
+        clm:Platform,
+        clm:Problem,
+        clm:Project,
+        clm:RCM,
+        clm:Realm,
+        clm:Resolution,
+        clm:Result,
+        clm:SimulationType,
+        clm:Source,
+        clm:SourceComponent,
+        clm:SourceType,
+        clm:SubExperiment,
+        clm:Task,
+        clm:Teleconnection,
+        clm:Variable,
+        clm:Water_Bodies,
+        clm:Weather_Event ;
+    rdfs:range xsd:string .
+
+clm:variable_long_name a owl:DatatypeProperty ;
+    rdfs:label "variable_long_name" ;
+    rdfs:domain clm:Variable ;
+    rdfs:range xsd:string .
+
+clm:variable_units a owl:DatatypeProperty ;
+    rdfs:label "variable_units" ;
+    rdfs:domain clm:Variable ;
+    rdfs:range xsd:string .
+
+clm:west a owl:DatatypeProperty ;
+    rdfs:label "west" ;
+    rdfs:domain clm:Country,
+        clm:Country_Subdivision,
+        clm:Water_Bodies ;
+    rdfs:range xsd:string .
+
+clm:NaturalHazardType a owl:Class ;
+    rdfs:label "NaturalHazardType" .
+
+clm:GridLabel a owl:Class ;
+    rdfs:label "GridLabel" .
+
+clm:Keyword a owl:Class ;
+    rdfs:label "Keyword" .
+
+clm:Domain a owl:Class ;
+    rdfs:label "Domain" .
+
+clm:Field a owl:Class ;
+    rdfs:label "Field" .
+
+clm:Forcing a owl:Class ;
+    rdfs:label "Forcing" .
+
+clm:Frequency a owl:Class ;
+    rdfs:label "Frequency" .
+
+clm:Instrument a owl:Class ;
+    rdfs:label "Instrument" .
+
+clm:Natural_Hazard a owl:Class ;
+    rdfs:label "Natural_Hazard" .
+
+clm:Ocean_Circulation a owl:Class ;
+    rdfs:label "Ocean_Circulation" .
+
+clm:Platform a owl:Class ;
+    rdfs:label "Platform" .
+
+clm:SubExperiment a owl:Class ;
+    rdfs:label "SubExperiment" .
+
+clm:Teleconnection a owl:Class ;
+    rdfs:label "Teleconnection" .
+
+clm:Weather_Event a owl:Class ;
+    rdfs:label "Weather_Event" .
+
+clm:Ensemble a owl:Class ;
+    rdfs:label "Ensemble" .
+
+clm:ExperimentFamily a owl:Class ;
+    rdfs:label "ExperimentFamily" .
+
+clm:Innovation a owl:Class ;
+    rdfs:label "Innovation" .
+
+clm:MIPEra a owl:Class ;
+    rdfs:label "MIPEra" .
+
+clm:Member a owl:Class ;
+    rdfs:label "Member" .
+
+clm:PhysicalFeature a owl:Class ;
+    rdfs:label "PhysicalFeature" .
+
+clm:PhysicalScheme a owl:Class ;
+    rdfs:label "PhysicalScheme" .
+
+clm:Resolution a owl:Class ;
+    rdfs:label "Resolution" .
+
+clm:SimulationType a owl:Class ;
+    rdfs:label "SimulationType" .
+
+clm:SourceType a owl:Class ;
+    rdfs:label "SourceType" .
+
+clm:ObservationalDataset a owl:Class ;
+    rdfs:label "ObservationalDataset" .
+
+clm:Realm a owl:Class ;
+    rdfs:label "Realm" .
+
+clm:Result a owl:Class ;
+    rdfs:label "Result" .
+
+clm:Activity a owl:Class ;
+    rdfs:label "Activity" .
+
+clm:Continent a owl:Class ;
+    rdfs:label "Continent" .
+
+clm:Institute a owl:Class ;
+    rdfs:label "Institute" .
+
+clm:Problem a owl:Class ;
+    rdfs:label "Problem" .
+
+clm:Project a owl:Class ;
+    rdfs:label "Project" .
+
+clm:Task a owl:Class ;
+    rdfs:label "Task" .
+
+clm:Variable a owl:Class ;
+    rdfs:label "Variable" .
+
+clm:Metric a owl:Class ;
+    rdfs:label "Metric" .
+
+clm:RCM a owl:Class ;
+    rdfs:label "RCM" .
+
+clm:SourceComponent a owl:Class ;
+    rdfs:label "SourceComponent" .
+
+clm:Water_Bodies a owl:Class ;
+    rdfs:label "Water_Bodies" .
+
+clm:Method a owl:Class ;
+    rdfs:label "Method" .
+
+clm:Model a owl:Class ;
+    rdfs:label "Model" .
+
+clm:Country_Subdivision a owl:Class ;
+    rdfs:label "Country_Subdivision" .
+
+clm:Experiment a owl:Class ;
+    rdfs:label "Experiment" .
+
+clm:Paper a owl:Class ;
+    rdfs:label "Paper" .
+
+clm:No_Country_Region a owl:Class ;
+    rdfs:label "No_Country_Region" .
+
+clm:City a owl:Class ;
+    rdfs:label "City" .
+
+clm:Source a owl:Class ;
+    rdfs:label "Source" .
+
+clm:Country a owl:Class ;
+    rdfs:label "Country" .
+

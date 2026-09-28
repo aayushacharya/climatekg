@@ -1,0 +1,195 @@
+{
+    "termsOfUse": "https://cdn.earthdata.nasa.gov/conduit/upload/5182/KeywordsCommunityGuide_Baseline_v1_SIGNED_FINAL.pdf",
+    "keywordVersion": "23.9",
+    "schemeVersion": "2026-05-13T10:52:13.516Z",
+    "viewer": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/sciencekeywords/a031952d-9f00-4ba5-9966-5f87ab9dfdd4",
+    "lastModifiedDate": "2025-05-22 10:02:58.0",
+    "uuid": "a031952d-9f00-4ba5-9966-5f87ab9dfdd4",
+    "prefLabel": "OCEAN CIRCULATION",
+    "isLeaf": false,
+    "scheme": {
+        "shortName": "sciencekeywords",
+        "longName": "Science Keywords"
+    },
+    "broader": [
+        {
+            "uuid": "91697b7d-8f2b-4954-850e-61d5f61c867d",
+            "prefLabel": "OCEANS",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        }
+    ],
+    "narrower": [
+        {
+            "uuid": "03fbea0a-74b9-4c78-8752-a588cff27f17",
+            "prefLabel": "WIND-DRIVEN CIRCULATION",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "6fe4680b-96e8-4304-ab32-c17a0769932c",
+            "prefLabel": "DIFFUSION",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "0cb7f2c6-5e99-4781-8d4f-19ecbad2e2e0",
+            "prefLabel": "ADVECTION",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "113edd07-7b1a-4082-b054-b58d3f23b93a",
+            "prefLabel": "WATER MASSES",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "10a9c153-f37d-48fe-920d-c790d946ab07",
+            "prefLabel": "CONVECTION",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "13927300-c59c-491a-91f3-f1540bcb2d8d",
+            "prefLabel": "EDDIES",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "22b339b5-1af5-46e3-8191-d93729001eeb",
+            "prefLabel": "FRONTS",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "34033240-5675-4760-9fad-0c0d9b67b7ce",
+            "prefLabel": "Finite Time Lyapunov Exponent",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "510c5f78-e19e-4ce4-b59a-8937aeb84631",
+            "prefLabel": "OCEAN CURRENTS",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "48ec6449-373c-41f6-8a61-8f1e9ed95737",
+            "prefLabel": "OCEAN MIXED LAYER",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "55715ed3-471e-46a8-97b6-b463708a2cbe",
+            "prefLabel": "VORTICITY",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "75ab3537-34b1-4025-b758-7296626079ba",
+            "prefLabel": "UPWELLING/DOWNWELLING",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "81f51367-8467-4183-baea-6b526780fcc7",
+            "prefLabel": "BUOY POSITION",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "c6f748f7-3a2a-4c76-90bd-8e8d7a691b21",
+            "prefLabel": "SUBDUCTION",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "aa1bc71c-daeb-401e-9e29-ebde975482cf",
+            "prefLabel": "THERMOHALINE CIRCULATION",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "b9f343a1-0b8d-4e88-91bc-21f5d551963f",
+            "prefLabel": "TURBULENCE",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "a110c0bd-0d41-4ac3-8463-16f97c57b266",
+            "prefLabel": "Lagrangian feature",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "fc0a6bb2-27f0-48e8-89f1-ebfc7ccd4823",
+            "prefLabel": "GYRES",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "d96bcb09-f240-41cc-84d0-6af9fb3509de",
+            "prefLabel": "OCEAN MASS",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "bdd42024-d1a4-4fb2-a16a-06ac0cc1dedc",
+            "prefLabel": "FRESH WATER FLUX",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        }
+    ],
+    "related": [],
+    "definitions": [
+        {
+            "text": "Pertaining to or measuring the movement of water in the marineenvironment. Variables include types of motion, as well as, circulationfeatures. Proper names of oceanic currents are not included.",
+            "reference": ""
+        }
+    ],
+    "altLabels": [],
+    "resources": []
+}

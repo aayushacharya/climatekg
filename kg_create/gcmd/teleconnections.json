@@ -1,0 +1,251 @@
+{
+    "termsOfUse": "https://cdn.earthdata.nasa.gov/conduit/upload/5182/KeywordsCommunityGuide_Baseline_v1_SIGNED_FINAL.pdf",
+    "keywordVersion": "23.9",
+    "schemeVersion": "2026-05-13T10:52:13.516Z",
+    "viewer": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/sciencekeywords/b887d3e5-4280-43d2-a34e-0f63ac086b6a",
+    "lastModifiedDate": "2013-03-13 16:27:15.0",
+    "uuid": "b887d3e5-4280-43d2-a34e-0f63ac086b6a",
+    "prefLabel": "TELECONNECTIONS",
+    "isLeaf": false,
+    "scheme": {
+        "shortName": "sciencekeywords",
+        "longName": "Science Keywords"
+    },
+    "broader": [
+        {
+            "uuid": "5273c8c2-d30b-4666-b2d5-0388ce2741d0",
+            "prefLabel": "ATMOSPHERIC/OCEAN INDICATORS",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        }
+    ],
+    "narrower": [
+        {
+            "uuid": "0384fecd-9303-47f3-84e3-f01f58013fc3",
+            "prefLabel": "EASTERN PACIFIC OSCILLATION",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "095a05c0-6220-4abd-9c1b-c4504a092d7d",
+            "prefLabel": "EL NINO SOUTHERN OSCILLATION (ENSO)",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "0e53e397-7836-45ec-bc62-0d54f9f176e5",
+            "prefLabel": "PACIFIC/NORTH AMERICAN (PNA) PATTERN",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "233903dd-daec-474f-ac2e-cdcad84a85b5",
+            "prefLabel": "Pacific Transition Index",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "2295728d-0ee0-4c6f-9bb4-261b4b22322e",
+            "prefLabel": "NORTH PACIFIC OSCILLATION",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "21389c4a-0d32-484a-95b9-db319a18f6ca",
+            "prefLabel": "EQUATORIAL PACIFIC MERIDIONAL WIND ANOMALY INDEX",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "2aeb8e10-b7f8-429e-b9f6-968ece330741",
+            "prefLabel": "BLOCKING INDEX",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "25d4368e-3b66-40d5-bac1-2343b127fa32",
+            "prefLabel": "MADDEN-JULIAN OSCILLATION",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "2de06b90-4abe-4c71-a537-978679bf8aea",
+            "prefLabel": "PACIFIC DECADAL OSCILLATION",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "47fb8f57-2ddd-4289-b8a5-af7ffa0ee031",
+            "prefLabel": "EAST ATLANTIC JET PATTERN",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "523c148f-bb4f-47d0-b176-0949ed59288a",
+            "prefLabel": "GLOBALLY INTEGRATED ANGULAR MOMENTUM",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "511e6c26-8806-4d88-9763-a136a6957042",
+            "prefLabel": "ANTARCTIC OSCILLATION",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "57a381ef-56f6-48af-8974-822f5859979d",
+            "prefLabel": "EQUATORIAL PACIFIC ZONAL WIND ANOMALY INDEX",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "64d4ff80-59bb-4565-8759-e5223939abfd",
+            "prefLabel": "EAST ATLANTIC PATTERN",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "77b2422e-ce52-465f-8841-5d04ebe536dc",
+            "prefLabel": "NORTHERN OSCILLATION INDEX",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "83b711e1-3fb5-4ef3-bafb-783e8239a4b5",
+            "prefLabel": "TROPICAL/NORTHERN HEMISPHERE PATTERN",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "98e5a7e4-b946-474a-8214-c1b7b3e5f976",
+            "prefLabel": "ARCTIC OSCILLATION",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "a69f9faf-f730-4eba-9e38-0f72b0544bbe",
+            "prefLabel": "BIVARIATE ENSO TIMESERIES INDEX",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "c5e1c055-768e-4aa3-a0a1-3adfda8ecdca",
+            "prefLabel": "NORTH ATLANTIC OSCILLATION",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "caddaef6-1a60-490a-938e-9107885f286f",
+            "prefLabel": "MULTIVARIATE ENSO INDEX",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "ea64fa04-2822-4cc5-9014-f18ce1a1ef23",
+            "prefLabel": "QUASI-BIENNIAL OSCILLATION",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "c58e035f-87c6-4aa5-8729-5a9c6270e73b",
+            "prefLabel": "EASTERN ATLANTIC WESTERN RUSSIA PATTERN",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "c6abcc08-7d59-4852-8c1a-82f464900333",
+            "prefLabel": "NORTH PACIFIC PATTERN",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "dcdb6cf1-48a7-488e-aeb8-e6c0b36752d4",
+            "prefLabel": "ATLANTIC MULTIDECADAL OSCILLATION LONG VERSION",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "bdb6eafa-f4e1-4536-b513-4c787f829722",
+            "prefLabel": "WEST PACIFIC INDEX",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "eaa0bc43-e283-4bf1-ba20-ca32850a66ef",
+            "prefLabel": "SOUTHERN OSCILLATION INDEX",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        },
+        {
+            "uuid": "f141c968-94d4-4c42-8877-bbe34bb84b26",
+            "prefLabel": "ATLANTIC MERIDIONAL MODE",
+            "scheme": {
+                "shortName": "sciencekeywords",
+                "longName": "Science Keywords"
+            }
+        }
+    ],
+    "related": [],
+    "definitions": [
+        {
+            "text": "A linkage between weather changes occuring in widely seperated regions of theglobe.\nThe term 'teleconnections' is most commonly applied to variability on monthlyor longer timescales and refers to the fact that such correlations suggest thatinformation is propagating between distant points through the atmosphere.",
+            "reference": "Amercan Metrological Society, 2000. The Glossary of Meteorology, 2nd ed., Boston, MA"
+        }
+    ],
+    "altLabels": [],
+    "resources": []
+}

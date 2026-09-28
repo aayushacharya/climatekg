@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.env
+.ipynb_checkpoints/
+
+# Unpacked by scripts/unpack_data.sh from data/
+extraction/papers/
+extraction/output/*_papers/
+extraction/output/entity_linked_papers/
+kg_create/neo4j/
+
+# Regenerated locally, too large to version
+extraction/embedding_files/
+extraction/experiments/output/
+extraction/experiments/data/
+kg_create/data/

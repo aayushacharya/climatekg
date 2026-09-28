@@ -1,0 +1,1395 @@
+[
+  {
+    "id": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.Amon.wap.gn.v20190429|crd-esgf-drc.ec.gc.ca",
+    "version": "20190429",
+    "access": [
+      "HTTPServer",
+      "GridFTP",
+      "OPENDAP",
+      "LAS"
+    ],
+    "activity_drs": [
+      "ScenarioMIP"
+    ],
+    "activity_id": [
+      "ScenarioMIP"
+    ],
+    "cf_standard_name": [
+      "lagrangian_tendency_of_air_pressure"
+    ],
+    "citation_url": [
+      "http://cera-www.dkrz.de/WDCC/meta/CMIP6/CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.Amon.wap.gn.v20190429.json"
+    ],
+    "data_node": "crd-esgf-drc.ec.gc.ca",
+    "data_specs_version": [
+      "01.00.30"
+    ],
+    "dataset_id_template_": [
+      "%(mip_era)s.%(activity_drs)s.%(institution_id)s.%(source_id)s.%(experiment_id)s.%(member_id)s.%(table_id)s.%(variable_id)s.%(grid_label)s"
+    ],
+    "datetime_start": "2015-01-16T12:00:00Z",
+    "datetime_stop": "2100-12-16T12:00:00Z",
+    "directory_format_template_": [
+      "%(root)s/%(mip_era)s/%(activity_drs)s/%(institution_id)s/%(source_id)s/%(experiment_id)s/%(member_id)s/%(table_id)s/%(variable_id)s/%(grid_label)s/%(version)s"
+    ],
+    "east_degrees": 357.1875,
+    "experiment_id": [
+      "ssp126"
+    ],
+    "experiment_title": [
+      "update of RCP2.6 based on SSP1"
+    ],
+    "frequency": [
+      "mon"
+    ],
+    "further_info_url": [
+      "https://furtherinfo.es-doc.org/CMIP6.CCCma.CanESM5.ssp126.none.r12i1p2f1"
+    ],
+    "geo": [
+      "ENVELOPE(-180.0, -2.8125, 87.8638, -87.8638)",
+      "ENVELOPE(0.0, 180.0, 87.8638, -87.8638)"
+    ],
+    "geo_units": [
+      "degrees_east"
+    ],
+    "grid": [
+      "T63L49 native atmosphere, T63 Linear Gaussian Grid; 128 x 64 longitude/latitude; 49 levels; top level 1 hPa"
+    ],
+    "grid_label": [
+      "gn"
+    ],
+    "height_bottom": 100000.0,
+    "height_top": 100.0,
+    "height_units": "Pa",
+    "index_node": "esgf-node.llnl.gov",
+    "instance_id": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.Amon.wap.gn.v20190429",
+    "institution_id": [
+      "CCCma"
+    ],
+    "latest": true,
+    "master_id": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.Amon.wap.gn",
+    "member_id": [
+      "r12i1p2f1"
+    ],
+    "mip_era": [
+      "CMIP6"
+    ],
+    "model_cohort": [
+      "Registered"
+    ],
+    "nominal_resolution": [
+      "500 km"
+    ],
+    "north_degrees": 87.8638,
+    "number_of_aggregations": 2,
+    "number_of_files": 1,
+    "pid": [
+      "hdl:21.14100/825d13d0-ecc1-33e6-aa56-1092b057d0e5"
+    ],
+    "product": [
+      "model-output"
+    ],
+    "project": [
+      "CMIP6"
+    ],
+    "realm": [
+      "atmos"
+    ],
+    "replica": false,
+    "size": 600415974,
+    "source_id": [
+      "CanESM5"
+    ],
+    "source_type": [
+      "AOGCM"
+    ],
+    "south_degrees": -87.8638,
+    "sub_experiment_id": [
+      "none"
+    ],
+    "table_id": [
+      "Amon"
+    ],
+    "title": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.Amon.wap.gn",
+    "type": "Dataset",
+    "url": [
+      "http://crd-esgf-drc.ec.gc.ca/thredds/catalog/esgcet/957/CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.Amon.wap.gn.v20190429.xml#CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.Amon.wap.gn.v20190429|application/xml+thredds|THREDDS",
+      "http://crd-esgf-drc.ec.gc.ca/las/getUI.do?catid=2D7D52D9ABAF43CDC673C1D95DCBF3BC_ns_CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.Amon.wap.gn.v20190429|application/las|LAS"
+    ],
+    "variable": [
+      "wap"
+    ],
+    "variable_id": [
+      "wap"
+    ],
+    "variable_long_name": [
+      "Omega (=dp/dt)"
+    ],
+    "variable_units": [
+      "Pa s-1"
+    ],
+    "variant_label": [
+      "r12i1p2f1"
+    ],
+    "west_degrees": 0.0,
+    "xlink": [
+      "http://cera-www.dkrz.de/WDCC/meta/CMIP6/CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.Amon.wap.gn.v20190429.json|Citation|citation",
+      "http://hdl.handle.net/hdl:21.14100/825d13d0-ecc1-33e6-aa56-1092b057d0e5|PID|pid"
+    ],
+    "_version_": 1646797594800685056,
+    "retracted": false,
+    "_timestamp": "2019-10-08T04:22:50.481Z",
+    "score": 1.0
+  },
+  {
+    "id": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.clt.gn.v20190429|crd-esgf-drc.ec.gc.ca",
+    "version": "20190429",
+    "access": [
+      "HTTPServer",
+      "GridFTP",
+      "OPENDAP",
+      "LAS"
+    ],
+    "activity_drs": [
+      "ScenarioMIP"
+    ],
+    "activity_id": [
+      "ScenarioMIP"
+    ],
+    "cf_standard_name": [
+      "cloud_area_fraction"
+    ],
+    "citation_url": [
+      "http://cera-www.dkrz.de/WDCC/meta/CMIP6/CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.clt.gn.v20190429.json"
+    ],
+    "data_node": "crd-esgf-drc.ec.gc.ca",
+    "data_specs_version": [
+      "01.00.30"
+    ],
+    "dataset_id_template_": [
+      "%(mip_era)s.%(activity_drs)s.%(institution_id)s.%(source_id)s.%(experiment_id)s.%(member_id)s.%(table_id)s.%(variable_id)s.%(grid_label)s"
+    ],
+    "datetime_start": "2015-01-01T12:00:00Z",
+    "datetime_stop": "2100-12-31T12:00:00Z",
+    "directory_format_template_": [
+      "%(root)s/%(mip_era)s/%(activity_drs)s/%(institution_id)s/%(source_id)s/%(experiment_id)s/%(member_id)s/%(table_id)s/%(variable_id)s/%(grid_label)s/%(version)s"
+    ],
+    "east_degrees": 357.1875,
+    "experiment_id": [
+      "ssp126"
+    ],
+    "experiment_title": [
+      "update of RCP2.6 based on SSP1"
+    ],
+    "frequency": [
+      "day"
+    ],
+    "further_info_url": [
+      "https://furtherinfo.es-doc.org/CMIP6.CCCma.CanESM5.ssp126.none.r12i1p2f1"
+    ],
+    "geo": [
+      "ENVELOPE(-180.0, -2.8125, 87.8638, -87.8638)",
+      "ENVELOPE(0.0, 180.0, 87.8638, -87.8638)"
+    ],
+    "geo_units": [
+      "degrees_east"
+    ],
+    "grid": [
+      "T63L49 native atmosphere, T63 Linear Gaussian Grid; 128 x 64 longitude/latitude; 49 levels; top level 1 hPa"
+    ],
+    "grid_label": [
+      "gn"
+    ],
+    "index_node": "esgf-node.llnl.gov",
+    "instance_id": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.clt.gn.v20190429",
+    "institution_id": [
+      "CCCma"
+    ],
+    "latest": true,
+    "master_id": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.clt.gn",
+    "member_id": [
+      "r12i1p2f1"
+    ],
+    "mip_era": [
+      "CMIP6"
+    ],
+    "model_cohort": [
+      "Registered"
+    ],
+    "nominal_resolution": [
+      "500 km"
+    ],
+    "north_degrees": 87.8638,
+    "number_of_aggregations": 2,
+    "number_of_files": 1,
+    "pid": [
+      "hdl:21.14100/67e21416-2202-35b9-870f-7104b8dd514f"
+    ],
+    "product": [
+      "model-output"
+    ],
+    "project": [
+      "CMIP6"
+    ],
+    "realm": [
+      "atmos"
+    ],
+    "replica": false,
+    "size": 616325579,
+    "source_id": [
+      "CanESM5"
+    ],
+    "source_type": [
+      "AOGCM"
+    ],
+    "south_degrees": -87.8638,
+    "sub_experiment_id": [
+      "none"
+    ],
+    "table_id": [
+      "day"
+    ],
+    "title": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.clt.gn",
+    "type": "Dataset",
+    "url": [
+      "http://crd-esgf-drc.ec.gc.ca/thredds/catalog/esgcet/957/CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.clt.gn.v20190429.xml#CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.clt.gn.v20190429|application/xml+thredds|THREDDS",
+      "http://crd-esgf-drc.ec.gc.ca/las/getUI.do?catid=2D7D52D9ABAF43CDC673C1D95DCBF3BC_ns_CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.clt.gn.v20190429|application/las|LAS"
+    ],
+    "variable": [
+      "clt"
+    ],
+    "variable_id": [
+      "clt"
+    ],
+    "variable_long_name": [
+      "Total Cloud Cover Percentage"
+    ],
+    "variable_units": [
+      "%"
+    ],
+    "variant_label": [
+      "r12i1p2f1"
+    ],
+    "west_degrees": 0.0,
+    "xlink": [
+      "http://cera-www.dkrz.de/WDCC/meta/CMIP6/CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.clt.gn.v20190429.json|Citation|citation",
+      "http://hdl.handle.net/hdl:21.14100/67e21416-2202-35b9-870f-7104b8dd514f|PID|pid"
+    ],
+    "_version_": 1646797598316560384,
+    "retracted": false,
+    "_timestamp": "2019-10-08T04:22:53.834Z",
+    "score": 1.0
+  },
+  {
+    "id": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.hfls.gn.v20190429|crd-esgf-drc.ec.gc.ca",
+    "version": "20190429",
+    "access": [
+      "HTTPServer",
+      "GridFTP",
+      "OPENDAP",
+      "LAS"
+    ],
+    "activity_drs": [
+      "ScenarioMIP"
+    ],
+    "activity_id": [
+      "ScenarioMIP"
+    ],
+    "cf_standard_name": [
+      "surface_upward_latent_heat_flux"
+    ],
+    "citation_url": [
+      "http://cera-www.dkrz.de/WDCC/meta/CMIP6/CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.hfls.gn.v20190429.json"
+    ],
+    "data_node": "crd-esgf-drc.ec.gc.ca",
+    "data_specs_version": [
+      "01.00.30"
+    ],
+    "dataset_id_template_": [
+      "%(mip_era)s.%(activity_drs)s.%(institution_id)s.%(source_id)s.%(experiment_id)s.%(member_id)s.%(table_id)s.%(variable_id)s.%(grid_label)s"
+    ],
+    "datetime_start": "2015-01-01T12:00:00Z",
+    "datetime_stop": "2100-12-31T12:00:00Z",
+    "directory_format_template_": [
+      "%(root)s/%(mip_era)s/%(activity_drs)s/%(institution_id)s/%(source_id)s/%(experiment_id)s/%(member_id)s/%(table_id)s/%(variable_id)s/%(grid_label)s/%(version)s"
+    ],
+    "east_degrees": 357.1875,
+    "experiment_id": [
+      "ssp126"
+    ],
+    "experiment_title": [
+      "update of RCP2.6 based on SSP1"
+    ],
+    "frequency": [
+      "day"
+    ],
+    "further_info_url": [
+      "https://furtherinfo.es-doc.org/CMIP6.CCCma.CanESM5.ssp126.none.r12i1p2f1"
+    ],
+    "geo": [
+      "ENVELOPE(-180.0, -2.8125, 87.8638, -87.8638)",
+      "ENVELOPE(0.0, 180.0, 87.8638, -87.8638)"
+    ],
+    "geo_units": [
+      "degrees_east"
+    ],
+    "grid": [
+      "T63L49 native atmosphere, T63 Linear Gaussian Grid; 128 x 64 longitude/latitude; 49 levels; top level 1 hPa"
+    ],
+    "grid_label": [
+      "gn"
+    ],
+    "index_node": "esgf-node.llnl.gov",
+    "instance_id": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.hfls.gn.v20190429",
+    "institution_id": [
+      "CCCma"
+    ],
+    "latest": true,
+    "master_id": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.hfls.gn",
+    "member_id": [
+      "r12i1p2f1"
+    ],
+    "mip_era": [
+      "CMIP6"
+    ],
+    "model_cohort": [
+      "Registered"
+    ],
+    "nominal_resolution": [
+      "500 km"
+    ],
+    "north_degrees": 87.8638,
+    "number_of_aggregations": 2,
+    "number_of_files": 1,
+    "pid": [
+      "hdl:21.14100/b497335c-6e72-3ff2-8395-37f6590d7e31"
+    ],
+    "product": [
+      "model-output"
+    ],
+    "project": [
+      "CMIP6"
+    ],
+    "realm": [
+      "atmos"
+    ],
+    "replica": false,
+    "size": 955581602,
+    "source_id": [
+      "CanESM5"
+    ],
+    "source_type": [
+      "AOGCM"
+    ],
+    "south_degrees": -87.8638,
+    "sub_experiment_id": [
+      "none"
+    ],
+    "table_id": [
+      "day"
+    ],
+    "title": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.hfls.gn",
+    "type": "Dataset",
+    "url": [
+      "http://crd-esgf-drc.ec.gc.ca/thredds/catalog/esgcet/957/CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.hfls.gn.v20190429.xml#CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.hfls.gn.v20190429|application/xml+thredds|THREDDS",
+      "http://crd-esgf-drc.ec.gc.ca/las/getUI.do?catid=2D7D52D9ABAF43CDC673C1D95DCBF3BC_ns_CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.hfls.gn.v20190429|application/las|LAS"
+    ],
+    "variable": [
+      "hfls"
+    ],
+    "variable_id": [
+      "hfls"
+    ],
+    "variable_long_name": [
+      "Surface Upward Latent Heat Flux"
+    ],
+    "variable_units": [
+      "W m-2"
+    ],
+    "variant_label": [
+      "r12i1p2f1"
+    ],
+    "west_degrees": 0.0,
+    "xlink": [
+      "http://cera-www.dkrz.de/WDCC/meta/CMIP6/CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.hfls.gn.v20190429.json|Citation|citation",
+      "http://hdl.handle.net/hdl:21.14100/b497335c-6e72-3ff2-8395-37f6590d7e31|PID|pid"
+    ],
+    "_version_": 1646797603354968064,
+    "retracted": false,
+    "_timestamp": "2019-10-08T04:22:58.639Z",
+    "score": 1.0
+  },
+  {
+    "id": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.hfss.gn.v20190429|crd-esgf-drc.ec.gc.ca",
+    "version": "20190429",
+    "access": [
+      "HTTPServer",
+      "GridFTP",
+      "OPENDAP",
+      "LAS"
+    ],
+    "activity_drs": [
+      "ScenarioMIP"
+    ],
+    "activity_id": [
+      "ScenarioMIP"
+    ],
+    "cf_standard_name": [
+      "surface_upward_sensible_heat_flux"
+    ],
+    "citation_url": [
+      "http://cera-www.dkrz.de/WDCC/meta/CMIP6/CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.hfss.gn.v20190429.json"
+    ],
+    "data_node": "crd-esgf-drc.ec.gc.ca",
+    "data_specs_version": [
+      "01.00.30"
+    ],
+    "dataset_id_template_": [
+      "%(mip_era)s.%(activity_drs)s.%(institution_id)s.%(source_id)s.%(experiment_id)s.%(member_id)s.%(table_id)s.%(variable_id)s.%(grid_label)s"
+    ],
+    "datetime_start": "2015-01-01T12:00:00Z",
+    "datetime_stop": "2100-12-31T12:00:00Z",
+    "directory_format_template_": [
+      "%(root)s/%(mip_era)s/%(activity_drs)s/%(institution_id)s/%(source_id)s/%(experiment_id)s/%(member_id)s/%(table_id)s/%(variable_id)s/%(grid_label)s/%(version)s"
+    ],
+    "east_degrees": 357.1875,
+    "experiment_id": [
+      "ssp126"
+    ],
+    "experiment_title": [
+      "update of RCP2.6 based on SSP1"
+    ],
+    "frequency": [
+      "day"
+    ],
+    "further_info_url": [
+      "https://furtherinfo.es-doc.org/CMIP6.CCCma.CanESM5.ssp126.none.r12i1p2f1"
+    ],
+    "geo": [
+      "ENVELOPE(-180.0, -2.8125, 87.8638, -87.8638)",
+      "ENVELOPE(0.0, 180.0, 87.8638, -87.8638)"
+    ],
+    "geo_units": [
+      "degrees_east"
+    ],
+    "grid": [
+      "T63L49 native atmosphere, T63 Linear Gaussian Grid; 128 x 64 longitude/latitude; 49 levels; top level 1 hPa"
+    ],
+    "grid_label": [
+      "gn"
+    ],
+    "index_node": "esgf-node.llnl.gov",
+    "instance_id": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.hfss.gn.v20190429",
+    "institution_id": [
+      "CCCma"
+    ],
+    "latest": true,
+    "master_id": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.hfss.gn",
+    "member_id": [
+      "r12i1p2f1"
+    ],
+    "mip_era": [
+      "CMIP6"
+    ],
+    "model_cohort": [
+      "Registered"
+    ],
+    "nominal_resolution": [
+      "500 km"
+    ],
+    "north_degrees": 87.8638,
+    "number_of_aggregations": 2,
+    "number_of_files": 1,
+    "pid": [
+      "hdl:21.14100/ae0167c2-86f4-3ddb-a679-34230d42f3b2"
+    ],
+    "product": [
+      "model-output"
+    ],
+    "project": [
+      "CMIP6"
+    ],
+    "realm": [
+      "atmos"
+    ],
+    "replica": false,
+    "size": 951217069,
+    "source_id": [
+      "CanESM5"
+    ],
+    "source_type": [
+      "AOGCM"
+    ],
+    "south_degrees": -87.8638,
+    "sub_experiment_id": [
+      "none"
+    ],
+    "table_id": [
+      "day"
+    ],
+    "title": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.hfss.gn",
+    "type": "Dataset",
+    "url": [
+      "http://crd-esgf-drc.ec.gc.ca/thredds/catalog/esgcet/957/CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.hfss.gn.v20190429.xml#CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.hfss.gn.v20190429|application/xml+thredds|THREDDS",
+      "http://crd-esgf-drc.ec.gc.ca/las/getUI.do?catid=2D7D52D9ABAF43CDC673C1D95DCBF3BC_ns_CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.hfss.gn.v20190429|application/las|LAS"
+    ],
+    "variable": [
+      "hfss"
+    ],
+    "variable_id": [
+      "hfss"
+    ],
+    "variable_long_name": [
+      "Surface Upward Sensible Heat Flux"
+    ],
+    "variable_units": [
+      "W m-2"
+    ],
+    "variant_label": [
+      "r12i1p2f1"
+    ],
+    "west_degrees": 0.0,
+    "xlink": [
+      "http://cera-www.dkrz.de/WDCC/meta/CMIP6/CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.hfss.gn.v20190429.json|Citation|citation",
+      "http://hdl.handle.net/hdl:21.14100/ae0167c2-86f4-3ddb-a679-34230d42f3b2|PID|pid"
+    ],
+    "_version_": 1646797608362967040,
+    "retracted": false,
+    "_timestamp": "2019-10-08T04:23:03.415Z",
+    "score": 1.0
+  },
+  {
+    "id": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.hursmax.gn.v20190429|crd-esgf-drc.ec.gc.ca",
+    "version": "20190429",
+    "access": [
+      "HTTPServer",
+      "GridFTP",
+      "OPENDAP",
+      "LAS"
+    ],
+    "activity_drs": [
+      "ScenarioMIP"
+    ],
+    "activity_id": [
+      "ScenarioMIP"
+    ],
+    "cf_standard_name": [
+      "relative_humidity"
+    ],
+    "citation_url": [
+      "http://cera-www.dkrz.de/WDCC/meta/CMIP6/CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.hursmax.gn.v20190429.json"
+    ],
+    "data_node": "crd-esgf-drc.ec.gc.ca",
+    "data_specs_version": [
+      "01.00.30"
+    ],
+    "dataset_id_template_": [
+      "%(mip_era)s.%(activity_drs)s.%(institution_id)s.%(source_id)s.%(experiment_id)s.%(member_id)s.%(table_id)s.%(variable_id)s.%(grid_label)s"
+    ],
+    "datetime_start": "2015-01-01T12:00:00Z",
+    "datetime_stop": "2100-12-31T12:00:00Z",
+    "directory_format_template_": [
+      "%(root)s/%(mip_era)s/%(activity_drs)s/%(institution_id)s/%(source_id)s/%(experiment_id)s/%(member_id)s/%(table_id)s/%(variable_id)s/%(grid_label)s/%(version)s"
+    ],
+    "east_degrees": 357.1875,
+    "experiment_id": [
+      "ssp126"
+    ],
+    "experiment_title": [
+      "update of RCP2.6 based on SSP1"
+    ],
+    "frequency": [
+      "day"
+    ],
+    "further_info_url": [
+      "https://furtherinfo.es-doc.org/CMIP6.CCCma.CanESM5.ssp126.none.r12i1p2f1"
+    ],
+    "geo": [
+      "ENVELOPE(-180.0, -2.8125, 87.8638, -87.8638)",
+      "ENVELOPE(0.0, 180.0, 87.8638, -87.8638)"
+    ],
+    "geo_units": [
+      "degrees_east"
+    ],
+    "grid": [
+      "T63L49 native atmosphere, T63 Linear Gaussian Grid; 128 x 64 longitude/latitude; 49 levels; top level 1 hPa"
+    ],
+    "grid_label": [
+      "gn"
+    ],
+    "index_node": "esgf-node.llnl.gov",
+    "instance_id": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.hursmax.gn.v20190429",
+    "institution_id": [
+      "CCCma"
+    ],
+    "latest": true,
+    "master_id": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.hursmax.gn",
+    "member_id": [
+      "r12i1p2f1"
+    ],
+    "mip_era": [
+      "CMIP6"
+    ],
+    "model_cohort": [
+      "Registered"
+    ],
+    "nominal_resolution": [
+      "500 km"
+    ],
+    "north_degrees": 87.8638,
+    "number_of_aggregations": 2,
+    "number_of_files": 1,
+    "pid": [
+      "hdl:21.14100/cb1c3dda-32db-3110-9803-af931aa6e665"
+    ],
+    "product": [
+      "model-output"
+    ],
+    "project": [
+      "CMIP6"
+    ],
+    "realm": [
+      "atmos"
+    ],
+    "replica": false,
+    "size": 801777124,
+    "source_id": [
+      "CanESM5"
+    ],
+    "source_type": [
+      "AOGCM"
+    ],
+    "south_degrees": -87.8638,
+    "sub_experiment_id": [
+      "none"
+    ],
+    "table_id": [
+      "day"
+    ],
+    "title": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.hursmax.gn",
+    "type": "Dataset",
+    "url": [
+      "http://crd-esgf-drc.ec.gc.ca/thredds/catalog/esgcet/957/CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.hursmax.gn.v20190429.xml#CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.hursmax.gn.v20190429|application/xml+thredds|THREDDS",
+      "http://crd-esgf-drc.ec.gc.ca/las/getUI.do?catid=2D7D52D9ABAF43CDC673C1D95DCBF3BC_ns_CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.hursmax.gn.v20190429|application/las|LAS"
+    ],
+    "variable": [
+      "hursmax"
+    ],
+    "variable_id": [
+      "hursmax"
+    ],
+    "variable_long_name": [
+      "Daily Maximum Near-Surface Relative Humidity"
+    ],
+    "variable_units": [
+      "%"
+    ],
+    "variant_label": [
+      "r12i1p2f1"
+    ],
+    "west_degrees": 0.0,
+    "xlink": [
+      "http://cera-www.dkrz.de/WDCC/meta/CMIP6/CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.hursmax.gn.v20190429.json|Citation|citation",
+      "http://hdl.handle.net/hdl:21.14100/cb1c3dda-32db-3110-9803-af931aa6e665|PID|pid"
+    ],
+    "_version_": 1646797612772229120,
+    "retracted": false,
+    "_timestamp": "2019-10-08T04:23:07.620Z",
+    "score": 1.0
+  },
+  {
+    "id": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.hursmin.gn.v20190429|crd-esgf-drc.ec.gc.ca",
+    "version": "20190429",
+    "access": [
+      "HTTPServer",
+      "GridFTP",
+      "OPENDAP",
+      "LAS"
+    ],
+    "activity_drs": [
+      "ScenarioMIP"
+    ],
+    "activity_id": [
+      "ScenarioMIP"
+    ],
+    "cf_standard_name": [
+      "relative_humidity"
+    ],
+    "citation_url": [
+      "http://cera-www.dkrz.de/WDCC/meta/CMIP6/CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.hursmin.gn.v20190429.json"
+    ],
+    "data_node": "crd-esgf-drc.ec.gc.ca",
+    "data_specs_version": [
+      "01.00.30"
+    ],
+    "dataset_id_template_": [
+      "%(mip_era)s.%(activity_drs)s.%(institution_id)s.%(source_id)s.%(experiment_id)s.%(member_id)s.%(table_id)s.%(variable_id)s.%(grid_label)s"
+    ],
+    "datetime_start": "2015-01-01T12:00:00Z",
+    "datetime_stop": "2100-12-31T12:00:00Z",
+    "directory_format_template_": [
+      "%(root)s/%(mip_era)s/%(activity_drs)s/%(institution_id)s/%(source_id)s/%(experiment_id)s/%(member_id)s/%(table_id)s/%(variable_id)s/%(grid_label)s/%(version)s"
+    ],
+    "east_degrees": 357.1875,
+    "experiment_id": [
+      "ssp126"
+    ],
+    "experiment_title": [
+      "update of RCP2.6 based on SSP1"
+    ],
+    "frequency": [
+      "day"
+    ],
+    "further_info_url": [
+      "https://furtherinfo.es-doc.org/CMIP6.CCCma.CanESM5.ssp126.none.r12i1p2f1"
+    ],
+    "geo": [
+      "ENVELOPE(-180.0, -2.8125, 87.8638, -87.8638)",
+      "ENVELOPE(0.0, 180.0, 87.8638, -87.8638)"
+    ],
+    "geo_units": [
+      "degrees_east"
+    ],
+    "grid": [
+      "T63L49 native atmosphere, T63 Linear Gaussian Grid; 128 x 64 longitude/latitude; 49 levels; top level 1 hPa"
+    ],
+    "grid_label": [
+      "gn"
+    ],
+    "index_node": "esgf-node.llnl.gov",
+    "instance_id": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.hursmin.gn.v20190429",
+    "institution_id": [
+      "CCCma"
+    ],
+    "latest": true,
+    "master_id": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.hursmin.gn",
+    "member_id": [
+      "r12i1p2f1"
+    ],
+    "mip_era": [
+      "CMIP6"
+    ],
+    "model_cohort": [
+      "Registered"
+    ],
+    "nominal_resolution": [
+      "500 km"
+    ],
+    "north_degrees": 87.8638,
+    "number_of_aggregations": 2,
+    "number_of_files": 1,
+    "pid": [
+      "hdl:21.14100/64006cfa-dda7-3c19-adb2-b93b1d794dbe"
+    ],
+    "product": [
+      "model-output"
+    ],
+    "project": [
+      "CMIP6"
+    ],
+    "realm": [
+      "atmos"
+    ],
+    "replica": false,
+    "size": 880972333,
+    "source_id": [
+      "CanESM5"
+    ],
+    "source_type": [
+      "AOGCM"
+    ],
+    "south_degrees": -87.8638,
+    "sub_experiment_id": [
+      "none"
+    ],
+    "table_id": [
+      "day"
+    ],
+    "title": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.hursmin.gn",
+    "type": "Dataset",
+    "url": [
+      "http://crd-esgf-drc.ec.gc.ca/thredds/catalog/esgcet/957/CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.hursmin.gn.v20190429.xml#CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.hursmin.gn.v20190429|application/xml+thredds|THREDDS",
+      "http://crd-esgf-drc.ec.gc.ca/las/getUI.do?catid=2D7D52D9ABAF43CDC673C1D95DCBF3BC_ns_CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.hursmin.gn.v20190429|application/las|LAS"
+    ],
+    "variable": [
+      "hursmin"
+    ],
+    "variable_id": [
+      "hursmin"
+    ],
+    "variable_long_name": [
+      "Daily Minimum Near-Surface Relative Humidity"
+    ],
+    "variable_units": [
+      "%"
+    ],
+    "variant_label": [
+      "r12i1p2f1"
+    ],
+    "west_degrees": 0.0,
+    "xlink": [
+      "http://cera-www.dkrz.de/WDCC/meta/CMIP6/CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.hursmin.gn.v20190429.json|Citation|citation",
+      "http://hdl.handle.net/hdl:21.14100/64006cfa-dda7-3c19-adb2-b93b1d794dbe|PID|pid"
+    ],
+    "_version_": 1646797617202462720,
+    "retracted": false,
+    "_timestamp": "2019-10-08T04:23:11.845Z",
+    "score": 1.0
+  },
+  {
+    "id": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.mrsos.gn.v20190429|crd-esgf-drc.ec.gc.ca",
+    "version": "20190429",
+    "access": [
+      "HTTPServer",
+      "GridFTP",
+      "OPENDAP",
+      "LAS"
+    ],
+    "activity_drs": [
+      "ScenarioMIP"
+    ],
+    "activity_id": [
+      "ScenarioMIP"
+    ],
+    "cf_standard_name": [
+      "moisture_in_upper_portion_of_soil_column"
+    ],
+    "citation_url": [
+      "http://cera-www.dkrz.de/WDCC/meta/CMIP6/CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.mrsos.gn.v20190429.json"
+    ],
+    "data_node": "crd-esgf-drc.ec.gc.ca",
+    "data_specs_version": [
+      "01.00.30"
+    ],
+    "dataset_id_template_": [
+      "%(mip_era)s.%(activity_drs)s.%(institution_id)s.%(source_id)s.%(experiment_id)s.%(member_id)s.%(table_id)s.%(variable_id)s.%(grid_label)s"
+    ],
+    "datetime_start": "2015-01-01T12:00:00Z",
+    "datetime_stop": "2100-12-31T12:00:00Z",
+    "directory_format_template_": [
+      "%(root)s/%(mip_era)s/%(activity_drs)s/%(institution_id)s/%(source_id)s/%(experiment_id)s/%(member_id)s/%(table_id)s/%(variable_id)s/%(grid_label)s/%(version)s"
+    ],
+    "east_degrees": 357.1875,
+    "experiment_id": [
+      "ssp126"
+    ],
+    "experiment_title": [
+      "update of RCP2.6 based on SSP1"
+    ],
+    "frequency": [
+      "day"
+    ],
+    "further_info_url": [
+      "https://furtherinfo.es-doc.org/CMIP6.CCCma.CanESM5.ssp126.none.r12i1p2f1"
+    ],
+    "geo": [
+      "ENVELOPE(-180.0, -2.8125, 87.8638, -87.8638)",
+      "ENVELOPE(0.0, 180.0, 87.8638, -87.8638)"
+    ],
+    "geo_units": [
+      "degrees_east"
+    ],
+    "grid": [
+      "T63L49 native atmosphere, T63 Linear Gaussian Grid; 128 x 64 longitude/latitude; 49 levels; top level 1 hPa"
+    ],
+    "grid_label": [
+      "gn"
+    ],
+    "index_node": "esgf-node.llnl.gov",
+    "instance_id": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.mrsos.gn.v20190429",
+    "institution_id": [
+      "CCCma"
+    ],
+    "latest": true,
+    "master_id": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.mrsos.gn",
+    "member_id": [
+      "r12i1p2f1"
+    ],
+    "mip_era": [
+      "CMIP6"
+    ],
+    "model_cohort": [
+      "Registered"
+    ],
+    "nominal_resolution": [
+      "500 km"
+    ],
+    "north_degrees": 87.8638,
+    "number_of_aggregations": 2,
+    "number_of_files": 1,
+    "pid": [
+      "hdl:21.14100/32a0521b-d9f5-3f70-9339-49e9412ba395"
+    ],
+    "product": [
+      "model-output"
+    ],
+    "project": [
+      "CMIP6"
+    ],
+    "realm": [
+      "land"
+    ],
+    "replica": false,
+    "size": 304883331,
+    "source_id": [
+      "CanESM5"
+    ],
+    "source_type": [
+      "AOGCM"
+    ],
+    "south_degrees": -87.8638,
+    "sub_experiment_id": [
+      "none"
+    ],
+    "table_id": [
+      "day"
+    ],
+    "title": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.mrsos.gn",
+    "type": "Dataset",
+    "url": [
+      "http://crd-esgf-drc.ec.gc.ca/thredds/catalog/esgcet/957/CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.mrsos.gn.v20190429.xml#CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.mrsos.gn.v20190429|application/xml+thredds|THREDDS",
+      "http://crd-esgf-drc.ec.gc.ca/las/getUI.do?catid=2D7D52D9ABAF43CDC673C1D95DCBF3BC_ns_CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.mrsos.gn.v20190429|application/las|LAS"
+    ],
+    "variable": [
+      "mrsos"
+    ],
+    "variable_id": [
+      "mrsos"
+    ],
+    "variable_long_name": [
+      "Moisture in Upper Portion of Soil Column"
+    ],
+    "variable_units": [
+      "kg m-2"
+    ],
+    "variant_label": [
+      "r12i1p2f1"
+    ],
+    "west_degrees": 0.0,
+    "xlink": [
+      "http://cera-www.dkrz.de/WDCC/meta/CMIP6/CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.mrsos.gn.v20190429.json|Citation|citation",
+      "http://hdl.handle.net/hdl:21.14100/32a0521b-d9f5-3f70-9339-49e9412ba395|PID|pid"
+    ],
+    "_version_": 1646797621502672896,
+    "retracted": false,
+    "_timestamp": "2019-10-08T04:23:15.946Z",
+    "score": 1.0
+  },
+  {
+    "id": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.prc.gn.v20190429|crd-esgf-drc.ec.gc.ca",
+    "version": "20190429",
+    "access": [
+      "HTTPServer",
+      "GridFTP",
+      "OPENDAP",
+      "LAS"
+    ],
+    "activity_drs": [
+      "ScenarioMIP"
+    ],
+    "activity_id": [
+      "ScenarioMIP"
+    ],
+    "cf_standard_name": [
+      "convective_precipitation_flux"
+    ],
+    "citation_url": [
+      "http://cera-www.dkrz.de/WDCC/meta/CMIP6/CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.prc.gn.v20190429.json"
+    ],
+    "data_node": "crd-esgf-drc.ec.gc.ca",
+    "data_specs_version": [
+      "01.00.30"
+    ],
+    "dataset_id_template_": [
+      "%(mip_era)s.%(activity_drs)s.%(institution_id)s.%(source_id)s.%(experiment_id)s.%(member_id)s.%(table_id)s.%(variable_id)s.%(grid_label)s"
+    ],
+    "datetime_start": "2015-01-01T12:00:00Z",
+    "datetime_stop": "2100-12-31T12:00:00Z",
+    "directory_format_template_": [
+      "%(root)s/%(mip_era)s/%(activity_drs)s/%(institution_id)s/%(source_id)s/%(experiment_id)s/%(member_id)s/%(table_id)s/%(variable_id)s/%(grid_label)s/%(version)s"
+    ],
+    "east_degrees": 357.1875,
+    "experiment_id": [
+      "ssp126"
+    ],
+    "experiment_title": [
+      "update of RCP2.6 based on SSP1"
+    ],
+    "frequency": [
+      "day"
+    ],
+    "further_info_url": [
+      "https://furtherinfo.es-doc.org/CMIP6.CCCma.CanESM5.ssp126.none.r12i1p2f1"
+    ],
+    "geo": [
+      "ENVELOPE(-180.0, -2.8125, 87.8638, -87.8638)",
+      "ENVELOPE(0.0, 180.0, 87.8638, -87.8638)"
+    ],
+    "geo_units": [
+      "degrees_east"
+    ],
+    "grid": [
+      "T63L49 native atmosphere, T63 Linear Gaussian Grid; 128 x 64 longitude/latitude; 49 levels; top level 1 hPa"
+    ],
+    "grid_label": [
+      "gn"
+    ],
+    "index_node": "esgf-node.llnl.gov",
+    "instance_id": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.prc.gn.v20190429",
+    "institution_id": [
+      "CCCma"
+    ],
+    "latest": true,
+    "master_id": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.prc.gn",
+    "member_id": [
+      "r12i1p2f1"
+    ],
+    "mip_era": [
+      "CMIP6"
+    ],
+    "model_cohort": [
+      "Registered"
+    ],
+    "nominal_resolution": [
+      "500 km"
+    ],
+    "north_degrees": 87.8638,
+    "number_of_aggregations": 2,
+    "number_of_files": 1,
+    "pid": [
+      "hdl:21.14100/a29142ae-f7af-3efd-9b30-e3a2a85b1572"
+    ],
+    "product": [
+      "model-output"
+    ],
+    "project": [
+      "CMIP6"
+    ],
+    "realm": [
+      "atmos"
+    ],
+    "replica": false,
+    "size": 380906915,
+    "source_id": [
+      "CanESM5"
+    ],
+    "source_type": [
+      "AOGCM"
+    ],
+    "south_degrees": -87.8638,
+    "sub_experiment_id": [
+      "none"
+    ],
+    "table_id": [
+      "day"
+    ],
+    "title": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.prc.gn",
+    "type": "Dataset",
+    "url": [
+      "http://crd-esgf-drc.ec.gc.ca/thredds/catalog/esgcet/957/CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.prc.gn.v20190429.xml#CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.prc.gn.v20190429|application/xml+thredds|THREDDS",
+      "http://crd-esgf-drc.ec.gc.ca/las/getUI.do?catid=2D7D52D9ABAF43CDC673C1D95DCBF3BC_ns_CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.prc.gn.v20190429|application/las|LAS"
+    ],
+    "variable": [
+      "prc"
+    ],
+    "variable_id": [
+      "prc"
+    ],
+    "variable_long_name": [
+      "Convective Precipitation"
+    ],
+    "variable_units": [
+      "kg m-2 s-1"
+    ],
+    "variant_label": [
+      "r12i1p2f1"
+    ],
+    "west_degrees": 0.0,
+    "xlink": [
+      "http://cera-www.dkrz.de/WDCC/meta/CMIP6/CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.day.prc.gn.v20190429.json|Citation|citation",
+      "http://hdl.handle.net/hdl:21.14100/a29142ae-f7af-3efd-9b30-e3a2a85b1572|PID|pid"
+    ],
+    "_version_": 1646797625142280192,
+    "retracted": false,
+    "_timestamp": "2019-10-08T04:23:19.417Z",
+    "score": 1.0
+  },
+  {
+    "id": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.Lmon.fVegLitter.gn.v20190429|crd-esgf-drc.ec.gc.ca",
+    "version": "20190429",
+    "access": [
+      "HTTPServer",
+      "GridFTP",
+      "OPENDAP",
+      "LAS"
+    ],
+    "activity_drs": [
+      "ScenarioMIP"
+    ],
+    "activity_id": [
+      "ScenarioMIP"
+    ],
+    "cf_standard_name": [
+      "total_carbon_mass_flux_from_vegetation_to_litter"
+    ],
+    "citation_url": [
+      "http://cera-www.dkrz.de/WDCC/meta/CMIP6/CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.Lmon.fVegLitter.gn.v20190429.json"
+    ],
+    "data_node": "crd-esgf-drc.ec.gc.ca",
+    "data_specs_version": [
+      "01.00.30"
+    ],
+    "dataset_id_template_": [
+      "%(mip_era)s.%(activity_drs)s.%(institution_id)s.%(source_id)s.%(experiment_id)s.%(member_id)s.%(table_id)s.%(variable_id)s.%(grid_label)s"
+    ],
+    "datetime_start": "2015-01-16T12:00:00Z",
+    "datetime_stop": "2100-12-16T12:00:00Z",
+    "directory_format_template_": [
+      "%(root)s/%(mip_era)s/%(activity_drs)s/%(institution_id)s/%(source_id)s/%(experiment_id)s/%(member_id)s/%(table_id)s/%(variable_id)s/%(grid_label)s/%(version)s"
+    ],
+    "east_degrees": 357.1875,
+    "experiment_id": [
+      "ssp126"
+    ],
+    "experiment_title": [
+      "update of RCP2.6 based on SSP1"
+    ],
+    "frequency": [
+      "mon"
+    ],
+    "further_info_url": [
+      "https://furtherinfo.es-doc.org/CMIP6.CCCma.CanESM5.ssp126.none.r12i1p2f1"
+    ],
+    "geo": [
+      "ENVELOPE(-180.0, -2.8125, 87.8638, -87.8638)",
+      "ENVELOPE(0.0, 180.0, 87.8638, -87.8638)"
+    ],
+    "geo_units": [
+      "degrees_east"
+    ],
+    "grid": [
+      "T63L49 native atmosphere, T63 Linear Gaussian Grid; 128 x 64 longitude/latitude; 49 levels; top level 1 hPa"
+    ],
+    "grid_label": [
+      "gn"
+    ],
+    "index_node": "esgf-node.llnl.gov",
+    "instance_id": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.Lmon.fVegLitter.gn.v20190429",
+    "institution_id": [
+      "CCCma"
+    ],
+    "latest": true,
+    "master_id": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.Lmon.fVegLitter.gn",
+    "member_id": [
+      "r12i1p2f1"
+    ],
+    "mip_era": [
+      "CMIP6"
+    ],
+    "model_cohort": [
+      "Registered"
+    ],
+    "nominal_resolution": [
+      "500 km"
+    ],
+    "north_degrees": 87.8638,
+    "number_of_aggregations": 2,
+    "number_of_files": 1,
+    "pid": [
+      "hdl:21.14100/49dbced2-5bd5-3e3a-8f3c-f8a8bc80416f"
+    ],
+    "product": [
+      "model-output"
+    ],
+    "project": [
+      "CMIP6"
+    ],
+    "realm": [
+      "land"
+    ],
+    "replica": false,
+    "size": 10061404,
+    "source_id": [
+      "CanESM5"
+    ],
+    "source_type": [
+      "AOGCM"
+    ],
+    "south_degrees": -87.8638,
+    "sub_experiment_id": [
+      "none"
+    ],
+    "table_id": [
+      "Lmon"
+    ],
+    "title": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.Lmon.fVegLitter.gn",
+    "type": "Dataset",
+    "url": [
+      "http://crd-esgf-drc.ec.gc.ca/thredds/catalog/esgcet/957/CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.Lmon.fVegLitter.gn.v20190429.xml#CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.Lmon.fVegLitter.gn.v20190429|application/xml+thredds|THREDDS",
+      "http://crd-esgf-drc.ec.gc.ca/las/getUI.do?catid=2D7D52D9ABAF43CDC673C1D95DCBF3BC_ns_CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.Lmon.fVegLitter.gn.v20190429|application/las|LAS"
+    ],
+    "variable": [
+      "fVegLitter"
+    ],
+    "variable_id": [
+      "fVegLitter"
+    ],
+    "variable_long_name": [
+      "Total Carbon Mass Flux from Vegetation to Litter"
+    ],
+    "variable_units": [
+      "kg m-2 s-1"
+    ],
+    "variant_label": [
+      "r12i1p2f1"
+    ],
+    "west_degrees": 0.0,
+    "xlink": [
+      "http://cera-www.dkrz.de/WDCC/meta/CMIP6/CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.Lmon.fVegLitter.gn.v20190429.json|Citation|citation",
+      "http://hdl.handle.net/hdl:21.14100/49dbced2-5bd5-3e3a-8f3c-f8a8bc80416f|PID|pid"
+    ],
+    "_version_": 1646798382044282880,
+    "retracted": false,
+    "_timestamp": "2019-10-08T04:35:21.255Z",
+    "score": 1.0
+  },
+  {
+    "id": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.Lmon.grassFrac.gn.v20190429|crd-esgf-drc.ec.gc.ca",
+    "version": "20190429",
+    "access": [
+      "HTTPServer",
+      "GridFTP",
+      "OPENDAP",
+      "LAS"
+    ],
+    "activity_drs": [
+      "ScenarioMIP"
+    ],
+    "activity_id": [
+      "ScenarioMIP"
+    ],
+    "cf_standard_name": [
+      "area_fraction"
+    ],
+    "citation_url": [
+      "http://cera-www.dkrz.de/WDCC/meta/CMIP6/CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.Lmon.grassFrac.gn.v20190429.json"
+    ],
+    "data_node": "crd-esgf-drc.ec.gc.ca",
+    "data_specs_version": [
+      "01.00.30"
+    ],
+    "dataset_id_template_": [
+      "%(mip_era)s.%(activity_drs)s.%(institution_id)s.%(source_id)s.%(experiment_id)s.%(member_id)s.%(table_id)s.%(variable_id)s.%(grid_label)s"
+    ],
+    "datetime_start": "2015-01-16T12:00:00Z",
+    "datetime_stop": "2100-12-16T12:00:00Z",
+    "directory_format_template_": [
+      "%(root)s/%(mip_era)s/%(activity_drs)s/%(institution_id)s/%(source_id)s/%(experiment_id)s/%(member_id)s/%(table_id)s/%(variable_id)s/%(grid_label)s/%(version)s"
+    ],
+    "east_degrees": 357.1875,
+    "experiment_id": [
+      "ssp126"
+    ],
+    "experiment_title": [
+      "update of RCP2.6 based on SSP1"
+    ],
+    "frequency": [
+      "mon"
+    ],
+    "further_info_url": [
+      "https://furtherinfo.es-doc.org/CMIP6.CCCma.CanESM5.ssp126.none.r12i1p2f1"
+    ],
+    "geo": [
+      "ENVELOPE(-180.0, -2.8125, 87.8638, -87.8638)",
+      "ENVELOPE(0.0, 180.0, 87.8638, -87.8638)"
+    ],
+    "geo_units": [
+      "degrees_east"
+    ],
+    "grid": [
+      "T63L49 native atmosphere, T63 Linear Gaussian Grid; 128 x 64 longitude/latitude; 49 levels; top level 1 hPa"
+    ],
+    "grid_label": [
+      "gn"
+    ],
+    "index_node": "esgf-node.llnl.gov",
+    "instance_id": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.Lmon.grassFrac.gn.v20190429",
+    "institution_id": [
+      "CCCma"
+    ],
+    "latest": true,
+    "master_id": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.Lmon.grassFrac.gn",
+    "member_id": [
+      "r12i1p2f1"
+    ],
+    "mip_era": [
+      "CMIP6"
+    ],
+    "model_cohort": [
+      "Registered"
+    ],
+    "nominal_resolution": [
+      "500 km"
+    ],
+    "north_degrees": 87.8638,
+    "number_of_aggregations": 2,
+    "number_of_files": 1,
+    "pid": [
+      "hdl:21.14100/1a08e5d9-494e-31a3-852f-dd1360d63d94"
+    ],
+    "product": [
+      "model-output"
+    ],
+    "project": [
+      "CMIP6"
+    ],
+    "realm": [
+      "land"
+    ],
+    "replica": false,
+    "size": 9931076,
+    "source_id": [
+      "CanESM5"
+    ],
+    "source_type": [
+      "AOGCM"
+    ],
+    "south_degrees": -87.8638,
+    "sub_experiment_id": [
+      "none"
+    ],
+    "table_id": [
+      "Lmon"
+    ],
+    "title": "CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.Lmon.grassFrac.gn",
+    "type": "Dataset",
+    "url": [
+      "http://crd-esgf-drc.ec.gc.ca/thredds/catalog/esgcet/957/CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.Lmon.grassFrac.gn.v20190429.xml#CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.Lmon.grassFrac.gn.v20190429|application/xml+thredds|THREDDS",
+      "http://crd-esgf-drc.ec.gc.ca/las/getUI.do?catid=2D7D52D9ABAF43CDC673C1D95DCBF3BC_ns_CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.Lmon.grassFrac.gn.v20190429|application/las|LAS"
+    ],
+    "variable": [
+      "grassFrac"
+    ],
+    "variable_id": [
+      "grassFrac"
+    ],
+    "variable_long_name": [
+      "Natural Grass Area Percentage"
+    ],
+    "variable_units": [
+      "%"
+    ],
+    "variant_label": [
+      "r12i1p2f1"
+    ],
+    "west_degrees": 0.0,
+    "xlink": [
+      "http://cera-www.dkrz.de/WDCC/meta/CMIP6/CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r12i1p2f1.Lmon.grassFrac.gn.v20190429.json|Citation|citation",
+      "http://hdl.handle.net/hdl:21.14100/1a08e5d9-494e-31a3-852f-dd1360d63d94|PID|pid"
+    ],
+    "_version_": 1646798386426281984,
+    "retracted": false,
+    "_timestamp": "2019-10-08T04:35:25.434Z",
+    "score": 1.0
+  }
+]

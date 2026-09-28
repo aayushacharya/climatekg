@@ -1,0 +1,2207 @@
+{
+    "ACCESS-CM2": {
+        "aerosol": [
+            "UKCA-GLOMAP-mode"
+        ],
+        "atmos": [
+            "MetUM-HadGEM3-GA7.1"
+        ],
+        "land": [
+            "CABLE2.5"
+        ],
+        "ocean": [
+            "ACCESS-OM2",
+            "GFDL-MOM5"
+        ],
+        "seaIce": [
+            "CICE5.1.2"
+        ]
+    },
+    "ACCESS-ESM1-5": {
+        "aerosol": [
+            "CLASSIC"
+        ],
+        "atmos": [
+            "HadGAM2"
+        ],
+        "land": [
+            "CABLE2.4"
+        ],
+        "ocean": [
+            "ACCESS-OM2",
+            "MOM5"
+        ],
+        "ocnBgchem": [
+            "WOMBAT"
+        ],
+        "seaIce": [
+            "CICE4.1"
+        ]
+    },
+    "ACCESS-OM2": {
+        "ocean": [
+            "ACCESS-OM2",
+            "MOM5"
+        ],
+        "ocnBgchem": [
+            "WOMBAT"
+        ],
+        "seaIce": [
+            "CICE5.1.2"
+        ]
+    },
+    "ACCESS-OM2-025": {
+        "ocean": [
+            "ACCESS-OM2"
+        ],
+        "ocnBgchem": [
+            "WOMBAT"
+        ],
+        "seaIce": [
+            "CICE5.1.2"
+        ]
+    },
+    "AWI-CM-1-1-HR": {
+        "atmos": [
+            "ECHAM6.3.04p1"
+        ],
+        "land": [
+            "JSBACH 3.20"
+        ],
+        "ocean": [
+            "FESOM 1.4"
+        ],
+        "seaIce": [
+            "FESOM 1.4"
+        ]
+    },
+    "AWI-CM-1-1-LR": {
+        "atmos": [
+            "ECHAM6.3.04p1"
+        ],
+        "land": [
+            "JSBACH 3.20"
+        ],
+        "ocean": [
+            "FESOM 1.4"
+        ],
+        "seaIce": [
+            "FESOM 1.4"
+        ]
+    },
+    "AWI-CM-1-1-MR": {
+        "atmos": [
+            "ECHAM6.3.04p1"
+        ],
+        "land": [
+            "JSBACH 3.20"
+        ],
+        "ocean": [
+            "FESOM 1.4"
+        ],
+        "seaIce": [
+            "FESOM 1.4"
+        ]
+    },
+    "AWI-ESM-1-1-LR": {
+        "atmos": [
+            "ECHAM6.3.04p1"
+        ],
+        "land": [
+            "JSBACH 3.20"
+        ],
+        "ocean": [
+            "FESOM 1.4"
+        ],
+        "seaIce": [
+            "FESOM 1.4"
+        ]
+    },
+    "AWI-ESM-1-REcoM": {
+        "atmos": [
+            "ECHAM6.3.04p1"
+        ],
+        "land": [
+            "JSBACH 3.20"
+        ],
+        "ocean": [
+            "FESOM 1.4"
+        ],
+        "ocnBgchem": [
+            "REcoM2"
+        ],
+        "seaIce": [
+            "FESOM 1.4"
+        ]
+    },
+    "BCC-CSM2-HR": {
+        "atmos": [
+            "BCC_AGCM3_HR"
+        ],
+        "land": [
+            "BCC_AVIM2"
+        ],
+        "ocean": [
+            "MOM4"
+        ],
+        "seaIce": [
+            "SIS2"
+        ]
+    },
+    "BCC-CSM2-MR": {
+        "atmos": [
+            "BCC_AGCM3_MR"
+        ],
+        "land": [
+            "BCC_AVIM2"
+        ],
+        "ocean": [
+            "MOM4"
+        ],
+        "seaIce": [
+            "SIS2"
+        ]
+    },
+    "BCC-ESM1": {
+        "atmos": [
+            "BCC_AGCM3_LR"
+        ],
+        "atmosChem": [
+            "BCC-AGCM3-Chem"
+        ],
+        "land": [
+            "BCC_AVIM2"
+        ],
+        "ocean": [
+            "MOM4"
+        ],
+        "seaIce": [
+            "SIS2"
+        ]
+    },
+    "CAM-MPAS-HR": {
+        "aerosol": [
+            "MACv2-SP"
+        ],
+        "atmos": [
+            "CAM-MPAS"
+        ],
+        "land": [
+            "CLM",
+            "River Transport Model"
+        ]
+    },
+    "CAM-MPAS-LR": {
+        "aerosol": [
+            "MACv2-SP"
+        ],
+        "atmos": [
+            "CAM-MPAS"
+        ],
+        "land": [
+            "CLM",
+            "River Transport Model"
+        ]
+    },
+    "CAMS-CSM1-0": {
+        "atmos": [
+            "ECHAM5_CAMS"
+        ],
+        "land": [
+            "CoLM 1.0"
+        ],
+        "ocean": [
+            "MOM4"
+        ],
+        "seaIce": [
+            "SIS 1.0"
+        ]
+    },
+    "CAS-ESM2-0": {
+        "aerosol": [
+            "IAP AACM"
+        ],
+        "atmos": [
+            "IAP AGCM 5.0"
+        ],
+        "atmosChem": [
+            "IAP AACM"
+        ],
+        "land": [
+            "CoLM"
+        ],
+        "ocean": [
+            "LICOM2.0"
+        ],
+        "ocnBgchem": [
+            "IAP OBGCM"
+        ],
+        "seaIce": [
+            "CICE4"
+        ]
+    },
+    "CESM1-1-CAM5-CMIP5": {
+        "aerosol": [
+            "MAM3"
+        ],
+        "atmos": [
+            "CAM5.2"
+        ],
+        "atmosChem": [
+            "MAM3"
+        ],
+        "land": [
+            "CLM4"
+        ],
+        "ocean": [
+            "POP2"
+        ],
+        "ocnBgchem": [
+            "BEC"
+        ],
+        "seaIce": [
+            "CICE4"
+        ]
+    },
+    "CESM1-CAM5-SE-HR": {
+        "aerosol": [
+            "MAM3"
+        ],
+        "atmos": [
+            "CAM5.2"
+        ],
+        "atmosChem": [
+            "MAM3"
+        ],
+        "land": [
+            "CLM4"
+        ],
+        "ocean": [
+            "POP2"
+        ],
+        "ocnBgchem": [
+            "BEC"
+        ],
+        "seaIce": [
+            "CICE4"
+        ]
+    },
+    "CESM1-CAM5-SE-LR": {
+        "aerosol": [
+            "MAM3"
+        ],
+        "atmos": [
+            "CAM5.2"
+        ],
+        "atmosChem": [
+            "MAM3"
+        ],
+        "land": [
+            "CLM4"
+        ],
+        "ocean": [
+            "POP2"
+        ],
+        "ocnBgchem": [
+            "BEC"
+        ],
+        "seaIce": [
+            "CICE4"
+        ]
+    },
+    "CESM1-WACCM-SC": {
+        "aerosol": [
+            "MOZART"
+        ],
+        "atmos": [
+            "WACCM4"
+        ],
+        "atmosChem": [
+            "MOZART"
+        ],
+        "land": [
+            "CLM4.0"
+        ],
+        "ocean": [
+            "POP2"
+        ],
+        "ocnBgchem": [
+            "BEC"
+        ],
+        "seaIce": [
+            "CICE4"
+        ]
+    },
+    "CESM2": {
+        "aerosol": [
+            "MAM4"
+        ],
+        "atmos": [
+            "CAM6"
+        ],
+        "atmosChem": [
+            "MAM4"
+        ],
+        "land": [
+            "CLM5"
+        ],
+        "landIce": [
+            "CISM2.1"
+        ],
+        "ocean": [
+            "POP2"
+        ],
+        "ocnBgchem": [
+            "MARBL"
+        ],
+        "seaIce": [
+            "CICE5.1"
+        ]
+    },
+    "CESM2-FV2": {
+        "aerosol": [
+            "MAM4"
+        ],
+        "atmos": [
+            "CAM6"
+        ],
+        "atmosChem": [
+            "MAM4"
+        ],
+        "land": [
+            "CLM5"
+        ],
+        "landIce": [
+            "CISM2.1"
+        ],
+        "ocean": [
+            "POP2"
+        ],
+        "ocnBgchem": [
+            "MARBL"
+        ],
+        "seaIce": [
+            "CICE5.1"
+        ]
+    },
+    "CESM2-WACCM": {
+        "aerosol": [
+            "MAM4"
+        ],
+        "atmos": [
+            "WACCM6"
+        ],
+        "atmosChem": [
+            "MAM4"
+        ],
+        "land": [
+            "CLM5"
+        ],
+        "landIce": [
+            "CISM2.1"
+        ],
+        "ocean": [
+            "POP2"
+        ],
+        "ocnBgchem": [
+            "MARBL"
+        ],
+        "seaIce": [
+            "CICE5.1"
+        ]
+    },
+    "CESM2-WACCM-FV2": {
+        "aerosol": [
+            "MAM4"
+        ],
+        "atmos": [
+            "WACCM6"
+        ],
+        "atmosChem": [
+            "MAM4"
+        ],
+        "land": [
+            "CLM5"
+        ],
+        "landIce": [
+            "CISM2.1"
+        ],
+        "ocean": [
+            "POP2"
+        ],
+        "ocnBgchem": [
+            "MARBL"
+        ],
+        "seaIce": [
+            "CICE5.1"
+        ]
+    },
+    "CIESM": {
+        "aerosol": [
+            "MAM4"
+        ],
+        "atmos": [
+            "CIESM-AM"
+        ],
+        "atmosChem": [
+            "trop_mam4"
+        ],
+        "land": [
+            "CIESM-LM",
+            "CLM4.5"
+        ],
+        "ocean": [
+            "CIESM-OM"
+        ],
+        "seaIce": [
+            "CICE4"
+        ]
+    },
+    "CMCC-CM2-HR4": {
+        "aerosol": [
+            "MACv2-SP"
+        ],
+        "atmos": [
+            "CAM4"
+        ],
+        "land": [
+            "CLM4.5"
+        ],
+        "ocean": [
+            "NEMO3.6"
+        ],
+        "seaIce": [
+            "CICE4.0"
+        ]
+    },
+    "CMCC-CM2-SR5": {
+        "aerosol": [
+            "MAM3"
+        ],
+        "atmos": [
+            "CAM5.3"
+        ],
+        "land": [
+            "CLM4.5"
+        ],
+        "ocean": [
+            "NEMO3.6"
+        ],
+        "seaIce": [
+            "CICE4.0"
+        ]
+    },
+    "CMCC-CM2-VHR4": {
+        "aerosol": [
+            "MACv2-SP"
+        ],
+        "atmos": [
+            "CAM4"
+        ],
+        "land": [
+            "CLM4.5"
+        ],
+        "ocean": [
+            "NEMO3.6"
+        ],
+        "seaIce": [
+            "CICE4.0"
+        ]
+    },
+    "CMCC-ESM2": {
+        "aerosol": [
+            "MAM3"
+        ],
+        "atmos": [
+            "CAM5.3"
+        ],
+        "land": [
+            "CLM4.5"
+        ],
+        "ocean": [
+            "NEMO3.6"
+        ],
+        "ocnBgchem": [
+            "BFM5.2"
+        ],
+        "seaIce": [
+            "CICE4.0"
+        ]
+    },
+    "CNRM-CM6-1": {
+        "aerosol": [
+            "TACTIC_v2"
+        ],
+        "atmos": [
+            "Arpege 6.3"
+        ],
+        "atmosChem": [
+            "OZL_v2"
+        ],
+        "land": [
+            "Surfex 8.0c"
+        ],
+        "ocean": [
+            "Nemo 3.6"
+        ],
+        "seaIce": [
+            "Gelato 6.1"
+        ]
+    },
+    "CNRM-CM6-1-HR": {
+        "aerosol": [
+            "TACTIC_v2"
+        ],
+        "atmos": [
+            "Arpege 6.3"
+        ],
+        "atmosChem": [
+            "OZL_v2"
+        ],
+        "land": [
+            "Surfex 8.0c"
+        ],
+        "ocean": [
+            "Nemo 3.6"
+        ],
+        "seaIce": [
+            "Gelato 6.1"
+        ]
+    },
+    "CNRM-ESM2-1": {
+        "aerosol": [
+            "TACTIC_v2"
+        ],
+        "atmos": [
+            "Arpege 6.3"
+        ],
+        "atmosChem": [
+            "REPROBUS-C_v2"
+        ],
+        "land": [
+            "Surfex 8.0c"
+        ],
+        "ocean": [
+            "Nemo 3.6"
+        ],
+        "ocnBgchem": [
+            "Pisces 2.s"
+        ],
+        "seaIce": [
+            "Gelato 6.1"
+        ]
+    },
+    "CanESM5": {
+        "atmos": [
+            "CanAM5"
+        ],
+        "land": [
+            "CLASS3.6",
+            "CTEM1.2"
+        ],
+        "ocean": [
+            "NEMO3.4.1"
+        ],
+        "ocnBgchem": [
+            "CMOC"
+        ],
+        "seaIce": [
+            "LIM2"
+        ]
+    },
+    "CanESM5-1": {
+        "atmos": [
+            "CanAM5.1"
+        ],
+        "land": [
+            "CLASS3.6",
+            "CTEM1.2"
+        ],
+        "ocean": [
+            "NEMO3.4.1"
+        ],
+        "ocnBgchem": [
+            "CMOC"
+        ],
+        "seaIce": [
+            "LIM2"
+        ]
+    },
+    "CanESM5-CanOE": {
+        "atmos": [
+            "CanAM5"
+        ],
+        "land": [
+            "CLASS3.6",
+            "CTEM1.2"
+        ],
+        "ocean": [
+            "NEMO3.4.1"
+        ],
+        "ocnBgchem": [
+            "CanOE"
+        ],
+        "seaIce": [
+            "LIM2"
+        ]
+    },
+    "E3SM-1-0": {
+        "aerosol": [
+            "MAM4"
+        ],
+        "atmos": [
+            "EAM"
+        ],
+        "atmosChem": [
+            "LINOZ v2"
+        ],
+        "land": [
+            "ELM",
+            "MOSART"
+        ],
+        "ocean": [
+            "MPAS-Ocean"
+        ],
+        "seaIce": [
+            "MPAS-Seaice"
+        ]
+    },
+    "E3SM-1-1": {
+        "aerosol": [
+            "MAM4"
+        ],
+        "atmos": [
+            "EAM"
+        ],
+        "atmosChem": [
+            "LINOZ v2"
+        ],
+        "land": [
+            "ELM",
+            "MOSART"
+        ],
+        "ocean": [
+            "MPAS-Ocean"
+        ],
+        "ocnBgchem": [
+            "BEC"
+        ],
+        "seaIce": [
+            "MPAS-Seaice"
+        ]
+    },
+    "E3SM-1-1-ECA": {
+        "aerosol": [
+            "MAM4"
+        ],
+        "atmos": [
+            "EAM"
+        ],
+        "atmosChem": [
+            "LINOZ v2"
+        ],
+        "land": [
+            "ELM",
+            "MOSART"
+        ],
+        "ocean": [
+            "MPAS-Ocean"
+        ],
+        "ocnBgchem": [
+            "BEC"
+        ],
+        "seaIce": [
+            "MPAS-Seaice"
+        ]
+    },
+    "E3SM-2-0": {
+        "aerosol": [
+            "MAM4"
+        ],
+        "atmos": [
+            "EAM"
+        ],
+        "atmosChem": [
+            "LINOZ v2"
+        ],
+        "land": [
+            "ELM",
+            "MOSART"
+        ],
+        "ocean": [
+            "MPAS-Ocean",
+            "E3SMv2.0"
+        ],
+        "seaIce": [
+            "MPAS-Seaice",
+            "E3SMv2.0"
+        ]
+    },
+    "E3SM-2-0-NARRM": {
+        "aerosol": [
+            "MAM4"
+        ],
+        "atmos": [
+            "EAM"
+        ],
+        "atmosChem": [
+            "LINOZ v2"
+        ],
+        "land": [
+            "ELM",
+            "MOSART"
+        ],
+        "ocean": [
+            "MPAS-Ocean",
+            "E3SMv2.0"
+        ],
+        "seaIce": [
+            "MPAS-Seaice",
+            "E3SMv2.0"
+        ]
+    },
+    "E3SM-2-1": {
+        "aerosol": [
+            "MAM4"
+        ],
+        "atmos": [
+            "EAM",
+            "E3SMv2.1"
+        ],
+        "atmosChem": [
+            "LINOZ v2"
+        ],
+        "land": [
+            "ELM",
+            "E3SMv2.1",
+            "MOSART"
+        ],
+        "ocean": [
+            "MPAS-Ocean",
+            "E3SMv2.1"
+        ],
+        "seaIce": [
+            "MPAS-Seaice",
+            "E3SMv2.1",
+            "MPAS-Ocean"
+        ]
+    },
+    "EC-Earth3": {
+        "atmos": [
+            "IFS cy36r4"
+        ],
+        "land": [
+            "HTESSEL"
+        ],
+        "ocean": [
+            "NEMO3.6"
+        ],
+        "seaIce": [
+            "LIM3"
+        ]
+    },
+    "EC-Earth3-AerChem": {
+        "aerosol": [
+            "TM5"
+        ],
+        "atmos": [
+            "IFS cy36r4"
+        ],
+        "atmosChem": [
+            "TM5"
+        ],
+        "land": [
+            "HTESSEL"
+        ],
+        "ocean": [
+            "NEMO3.6"
+        ],
+        "seaIce": [
+            "LIM3"
+        ]
+    },
+    "EC-Earth3-CC": {
+        "atmos": [
+            "IFS cy36r4"
+        ],
+        "atmosChem": [
+            "TM5"
+        ],
+        "land": [
+            "HTESSEL",
+            "LPJ-GUESS"
+        ],
+        "ocean": [
+            "NEMO3.6"
+        ],
+        "ocnBgchem": [
+            "PISCES v2"
+        ],
+        "seaIce": [
+            "LIM3"
+        ]
+    },
+    "EC-Earth3-ESM-1": {
+        "atmos": [
+            "IFS cy36r4",
+            "co2box v1.0"
+        ],
+        "land": [
+            "HTESSEL",
+            "LPJ-GUESS"
+        ],
+        "landIce": [
+            "PISM"
+        ],
+        "ocean": [
+            "NEMO3.6",
+            "MWE v1.0"
+        ],
+        "ocnBgchem": [
+            "PISCES v2"
+        ],
+        "seaIce": [
+            "LIM3"
+        ]
+    },
+    "EC-Earth3-HR": {
+        "atmos": [
+            "IFS cy36r4"
+        ],
+        "land": [
+            "HTESSEL"
+        ],
+        "ocean": [
+            "NEMO3.6"
+        ],
+        "seaIce": [
+            "LIM3"
+        ]
+    },
+    "EC-Earth3-LR": {
+        "atmos": [
+            "IFS cy36r4"
+        ],
+        "land": [
+            "HTESSEL"
+        ],
+        "ocean": [
+            "NEMO3.6"
+        ],
+        "seaIce": [
+            "LIM3"
+        ]
+    },
+    "EC-Earth3-Veg": {
+        "atmos": [
+            "IFS cy36r4"
+        ],
+        "land": [
+            "HTESSEL",
+            "LPJ-GUESS"
+        ],
+        "ocean": [
+            "NEMO3.6"
+        ],
+        "seaIce": [
+            "LIM3"
+        ]
+    },
+    "EC-Earth3-Veg-LR": {
+        "atmos": [
+            "IFS cy36r4"
+        ],
+        "land": [
+            "HTESSEL",
+            "LPJ-GUESS"
+        ],
+        "ocean": [
+            "NEMO3.6"
+        ],
+        "seaIce": [
+            "LIM3"
+        ]
+    },
+    "EC-Earth3P": {
+        "atmos": [
+            "IFS cy36r4"
+        ],
+        "land": [
+            "HTESSEL"
+        ],
+        "ocean": [
+            "NEMO3.6"
+        ],
+        "seaIce": [
+            "LIM3"
+        ]
+    },
+    "EC-Earth3P-HR": {
+        "atmos": [
+            "IFS cy36r4"
+        ],
+        "land": [
+            "HTESSEL"
+        ],
+        "ocean": [
+            "NEMO3.6"
+        ],
+        "seaIce": [
+            "LIM3"
+        ]
+    },
+    "EC-Earth3P-VHR": {
+        "atmos": [
+            "IFS cy36r4"
+        ],
+        "land": [
+            "HTESSEL"
+        ],
+        "ocean": [
+            "NEMO3.6"
+        ],
+        "seaIce": [
+            "LIM3"
+        ]
+    },
+    "ECMWF-IFS-HR": {
+        "atmos": [
+            "IFS"
+        ],
+        "land": [
+            "HTESSEL"
+        ],
+        "ocean": [
+            "NEMO3.4"
+        ],
+        "seaIce": [
+            "LIM2"
+        ]
+    },
+    "ECMWF-IFS-LR": {
+        "atmos": [
+            "IFS"
+        ],
+        "land": [
+            "HTESSEL"
+        ],
+        "ocean": [
+            "NEMO3.4"
+        ],
+        "seaIce": [
+            "LIM2"
+        ]
+    },
+    "ECMWF-IFS-MR": {
+        "atmos": [
+            "IFS"
+        ],
+        "land": [
+            "HTESSEL"
+        ],
+        "ocean": [
+            "NEMO3.4"
+        ],
+        "seaIce": [
+            "LIM2"
+        ]
+    },
+    "FGOALS-f3-H": {
+        "atmos": [
+            "FAMIL2.2"
+        ],
+        "land": [
+            "CLM4.0"
+        ],
+        "ocean": [
+            "LICOM3.0"
+        ],
+        "seaIce": [
+            "CICE4.0"
+        ]
+    },
+    "FGOALS-f3-L": {
+        "atmos": [
+            "FAMIL2.2"
+        ],
+        "land": [
+            "CLM4.0"
+        ],
+        "ocean": [
+            "LICOM3.0"
+        ],
+        "seaIce": [
+            "CICE4.0"
+        ]
+    },
+    "FGOALS-g3": {
+        "atmos": [
+            "GAMIL3"
+        ],
+        "land": [
+            "CAS-LSM"
+        ],
+        "ocean": [
+            "LICOM3.0"
+        ],
+        "seaIce": [
+            "CICE4.0"
+        ]
+    },
+    "FIO-ESM-2-0": {
+        "atmos": [
+            "CAM4"
+        ],
+        "land": [
+            "CLM4.0"
+        ],
+        "ocean": [
+            "POP2-W",
+            "MASNUM"
+        ],
+        "seaIce": [
+            "CICE4.0"
+        ]
+    },
+    "GFDL-AM4": {
+        "atmos": [
+            "GFDL-AM4.0"
+        ],
+        "land": [
+            "GFDL-LM4.0"
+        ],
+        "landIce": [
+            "GFDL-LM4.0"
+        ]
+    },
+    "GFDL-CM4": {
+        "atmos": [
+            "GFDL-AM4.0.1"
+        ],
+        "land": [
+            "GFDL-LM4.0.1",
+            "land-Veg",
+            "land-Hydro"
+        ],
+        "landIce": [
+            "GFDL-LM4.0.1"
+        ],
+        "ocean": [
+            "GFDL-OM4p25",
+            "GFDL-MOM6"
+        ],
+        "ocnBgchem": [
+            "GFDL-BLINGv2"
+        ],
+        "seaIce": [
+            "GFDL-SIM4p25",
+            "GFDL-SIS2.0"
+        ]
+    },
+    "GFDL-CM4C192": {
+        "atmos": [
+            "GFDL-AM4C192"
+        ],
+        "land": [
+            "GFDL-LM4.0.1"
+        ],
+        "landIce": [
+            "GFDL-LM4.0.1"
+        ],
+        "ocean": [
+            "GFDL-OM4p25",
+            "GFDL-MOM6"
+        ],
+        "seaIce": [
+            "GFDL-SIM4p25",
+            "GFDL-SIS2.0"
+        ]
+    },
+    "GFDL-ESM2M": {
+        "atmos": [
+            "GFDL-AM2"
+        ],
+        "land": [
+            "GFDL-LM3.0"
+        ],
+        "landIce": [
+            "GFDL-LM3.0"
+        ],
+        "ocean": [
+            "GFDL-MOM4p1"
+        ],
+        "ocnBgchem": [
+            "GFDL-TOPAZ2"
+        ],
+        "seaIce": [
+            "GFDL-SIM2",
+            "GFDL-SIS"
+        ]
+    },
+    "GFDL-ESM4": {
+        "atmos": [
+            "GFDL-AM4.1"
+        ],
+        "atmosChem": [
+            "GFDL-ATMCHEM4.1"
+        ],
+        "land": [
+            "GFDL-LM4.1"
+        ],
+        "landIce": [
+            "GFDL-LM4.1"
+        ],
+        "ocean": [
+            "GFDL-OM4p5",
+            "GFDL-MOM6"
+        ],
+        "ocnBgchem": [
+            "GFDL-COBALTv2"
+        ],
+        "seaIce": [
+            "GFDL-SIM4p5",
+            "GFDL-SIS2.0"
+        ]
+    },
+    "GFDL-OM4p5B": {
+        "ocean": [
+            "GFDL-OM4p5",
+            "GFDL-MOM6"
+        ],
+        "ocnBgchem": [
+            "GFDL-BLINGv2"
+        ],
+        "seaIce": [
+            "GFDL-SIM4p5",
+            "GFDL-SIS2.0"
+        ]
+    },
+    "GISS-E2-1-G": {
+        "aerosol": [
+            "OMA",
+            "TOMAS",
+            "MATRIX"
+        ],
+        "atmos": [
+            "GISS-E2.1"
+        ],
+        "land": [
+            "GISS LSM"
+        ],
+        "ocean": [
+            "GISS Ocean",
+            "GO1"
+        ],
+        "seaIce": [
+            "GISS SI"
+        ]
+    },
+    "GISS-E2-1-G-CC": {
+        "aerosol": [
+            "OMA",
+            "TOMAS",
+            "MATRIX"
+        ],
+        "atmos": [
+            "GISS-E2.1"
+        ],
+        "land": [
+            "GISS LSM"
+        ],
+        "ocean": [
+            "GISS Ocean"
+        ],
+        "ocnBgchem": [
+            "NOBM"
+        ],
+        "seaIce": [
+            "GISS SI"
+        ]
+    },
+    "GISS-E2-1-H": {
+        "aerosol": [
+            "OMA",
+            "TOMAS",
+            "MATRIX"
+        ],
+        "atmos": [
+            "GISS-E2.1"
+        ],
+        "land": [
+            "GISS LSM"
+        ],
+        "ocean": [
+            "HYCOM"
+        ],
+        "seaIce": [
+            "GISS SI"
+        ]
+    },
+    "GISS-E2-2-G": {
+        "aerosol": [
+            "OMA",
+            "TOMAS",
+            "MATRIX"
+        ],
+        "atmos": [
+            "GISS-E2.2"
+        ],
+        "land": [
+            "GISS LSM"
+        ],
+        "ocean": [
+            "GISS Ocean",
+            "GO1"
+        ],
+        "seaIce": [
+            "GISS SI"
+        ]
+    },
+    "GISS-E2-2-H": {
+        "aerosol": [
+            "OMA",
+            "TOMAS",
+            "MATRIX"
+        ],
+        "atmos": [
+            "GISS-E2.2"
+        ],
+        "land": [
+            "GISS LSM"
+        ],
+        "ocean": [
+            "HYCOM"
+        ],
+        "seaIce": [
+            "GISS SI"
+        ]
+    },
+    "GISS-E3-G": {
+        "aerosol": [
+            "OMA",
+            "TOMAS",
+            "MATRIX"
+        ],
+        "atmos": [
+            "GISS-E3"
+        ],
+        "land": [
+            "GISS LSM"
+        ],
+        "ocean": [
+            "GISS Ocean"
+        ],
+        "seaIce": [
+            "GISS SI"
+        ]
+    },
+    "HadGEM3-GC31-HH": {
+        "aerosol": [
+            "UKCA-GLOMAP-mode"
+        ],
+        "atmos": [
+            "MetUM-HadGEM3-GA7.1"
+        ],
+        "land": [
+            "JULES-HadGEM3-GL7.1"
+        ],
+        "ocean": [
+            "NEMO-HadGEM3-GO6.0"
+        ],
+        "seaIce": [
+            "CICE-HadGEM3-GSI8"
+        ]
+    },
+    "HadGEM3-GC31-HM": {
+        "aerosol": [
+            "UKCA-GLOMAP-mode"
+        ],
+        "atmos": [
+            "MetUM-HadGEM3-GA7.1"
+        ],
+        "land": [
+            "JULES-HadGEM3-GL7.1"
+        ],
+        "ocean": [
+            "NEMO-HadGEM3-GO6.0"
+        ],
+        "seaIce": [
+            "CICE-HadGEM3-GSI8"
+        ]
+    },
+    "HadGEM3-GC31-LL": {
+        "aerosol": [
+            "UKCA-GLOMAP-mode"
+        ],
+        "atmos": [
+            "MetUM-HadGEM3-GA7.1"
+        ],
+        "land": [
+            "JULES-HadGEM3-GL7.1"
+        ],
+        "ocean": [
+            "NEMO-HadGEM3-GO6.0"
+        ],
+        "seaIce": [
+            "CICE-HadGEM3-GSI8"
+        ]
+    },
+    "HadGEM3-GC31-LM": {
+        "aerosol": [
+            "UKCA-GLOMAP-mode"
+        ],
+        "atmos": [
+            "MetUM-HadGEM3-GA7.1"
+        ],
+        "land": [
+            "JULES-HadGEM3-GL7.1"
+        ],
+        "ocean": [
+            "NEMO-HadGEM3-GO6.0"
+        ],
+        "seaIce": [
+            "CICE-HadGEM3-GSI8"
+        ]
+    },
+    "HadGEM3-GC31-MH": {
+        "aerosol": [
+            "UKCA-GLOMAP-mode"
+        ],
+        "atmos": [
+            "MetUM-HadGEM3-GA7.1"
+        ],
+        "land": [
+            "JULES-HadGEM3-GL7.1"
+        ],
+        "ocean": [
+            "NEMO-HadGEM3-GO6.0"
+        ],
+        "seaIce": [
+            "CICE-HadGEM3-GSI8"
+        ]
+    },
+    "HadGEM3-GC31-MM": {
+        "aerosol": [
+            "UKCA-GLOMAP-mode"
+        ],
+        "atmos": [
+            "MetUM-HadGEM3-GA7.1"
+        ],
+        "land": [
+            "JULES-HadGEM3-GL7.1"
+        ],
+        "ocean": [
+            "NEMO-HadGEM3-GO6.0"
+        ],
+        "seaIce": [
+            "CICE-HadGEM3-GSI8"
+        ]
+    },
+    "HiRAM-SIT-HR": {
+        "atmos": [
+            "GFDL-HiRAM"
+        ],
+        "land": [
+            "GFDL-LM3"
+        ],
+        "ocean": [
+            "SIT"
+        ]
+    },
+    "HiRAM-SIT-LR": {
+        "atmos": [
+            "GFDL-HiRAM"
+        ],
+        "land": [
+            "GFDL-LM3"
+        ],
+        "ocean": [
+            "SIT"
+        ]
+    },
+    "ICON-ESM-LR": {
+        "aerosol": [
+            "MACv2-SP"
+        ],
+        "atmos": [
+            "ICON-A"
+        ],
+        "land": [
+            "JSBACH4.20"
+        ],
+        "ocean": [
+            "ICON-O"
+        ],
+        "ocnBgchem": [
+            "HAMOCC"
+        ],
+        "seaIce": [
+            "Semtner zero-layer",
+            "Hibler 79"
+        ]
+    },
+    "IITM-ESM": {
+        "aerosol": [
+            "MAC-v2"
+        ],
+        "atmos": [
+            "IITM-GFSv1"
+        ],
+        "land": [
+            "NOAH LSMv2.7.1"
+        ],
+        "ocean": [
+            "MOM4p1"
+        ],
+        "ocnBgchem": [
+            "TOPAZv2.0"
+        ],
+        "seaIce": [
+            "SISv1.0"
+        ]
+    },
+    "INM-CM4-8": {
+        "aerosol": [
+            "INM-AER1"
+        ],
+        "atmos": [
+            "INM-AM4-8"
+        ],
+        "land": [
+            "INM-LND1"
+        ],
+        "ocean": [
+            "INM-OM5"
+        ],
+        "seaIce": [
+            "INM-ICE1"
+        ]
+    },
+    "INM-CM5-0": {
+        "aerosol": [
+            "INM-AER1"
+        ],
+        "atmos": [
+            "INM-AM5-0"
+        ],
+        "land": [
+            "INM-LND1"
+        ],
+        "ocean": [
+            "INM-OM5"
+        ],
+        "seaIce": [
+            "INM-ICE1"
+        ]
+    },
+    "INM-CM5-H": {
+        "aerosol": [
+            "INM-AER1"
+        ],
+        "atmos": [
+            "INM-AM5-H"
+        ],
+        "land": [
+            "INM-LND1"
+        ],
+        "ocean": [
+            "INM-OM5-H"
+        ],
+        "seaIce": [
+            "INM-ICE1"
+        ]
+    },
+    "IPSL-CM5A2-INCA": {
+        "aerosol": [
+            "INCA v6 NMHC-AER-S"
+        ],
+        "atmos": [
+            "LMDZ"
+        ],
+        "atmosChem": [
+            "INCA v6 NMHC-AER-S"
+        ],
+        "land": [
+            "ORCHIDEE",
+            "IPSLCM5A2.1"
+        ],
+        "ocean": [
+            "NEMO-OPA"
+        ],
+        "ocnBgchem": [
+            "NEMO-PISCES"
+        ],
+        "seaIce": [
+            "NEMO-LIM2"
+        ]
+    },
+    "IPSL-CM6A-ATM-HR": {
+        "atmos": [
+            "LMDZ"
+        ],
+        "land": [
+            "ORCHIDEE"
+        ]
+    },
+    "IPSL-CM6A-ATM-ICO-HR": {
+        "atmos": [
+            "DYNAMICO-LMDZ"
+        ],
+        "land": [
+            "ORCHIDEE"
+        ]
+    },
+    "IPSL-CM6A-ATM-ICO-LR": {
+        "atmos": [
+            "DYNAMICO-LMDZ"
+        ],
+        "land": [
+            "ORCHIDEE"
+        ]
+    },
+    "IPSL-CM6A-ATM-ICO-MR": {
+        "atmos": [
+            "DYNAMICO-LMDZ"
+        ],
+        "land": [
+            "ORCHIDEE"
+        ]
+    },
+    "IPSL-CM6A-ATM-ICO-VHR": {
+        "atmos": [
+            "DYNAMICO-LMDZ"
+        ],
+        "land": [
+            "ORCHIDEE"
+        ]
+    },
+    "IPSL-CM6A-ATM-LR-REPROBUS": {
+        "aerosol": [
+            "LMDZ"
+        ],
+        "atmos": [
+            "LMDZ"
+        ],
+        "atmosChem": [
+            "REPROBUS v6"
+        ]
+    },
+    "IPSL-CM6A-LR": {
+        "atmos": [
+            "LMDZ",
+            "NPv6"
+        ],
+        "land": [
+            "ORCHIDEE"
+        ],
+        "ocean": [
+            "NEMO-OPA"
+        ],
+        "ocnBgchem": [
+            "NEMO-PISCES"
+        ],
+        "seaIce": [
+            "NEMO-LIM3"
+        ]
+    },
+    "IPSL-CM6A-LR-INCA": {
+        "aerosol": [
+            "INCA v6 AER"
+        ],
+        "atmos": [
+            "LMDZ"
+        ],
+        "land": [
+            "ORCHIDEE"
+        ],
+        "ocean": [
+            "NEMO-OPA"
+        ],
+        "ocnBgchem": [
+            "NEMO-PISCES"
+        ],
+        "seaIce": [
+            "NEMO-LIM3"
+        ]
+    },
+    "IPSL-CM6A-MR1": {
+        "atmos": [
+            "LMDZ"
+        ],
+        "land": [
+            "ORCHIDEE"
+        ],
+        "ocean": [
+            "NEMO-OPA"
+        ],
+        "ocnBgchem": [
+            "NEMO-PISCES"
+        ],
+        "seaIce": [
+            "NEMO-LIM3"
+        ]
+    },
+    "KACE-1-0-G": {
+        "aerosol": [
+            "UKCA-GLOMAP-mode"
+        ],
+        "atmos": [
+            "MetUM-HadGEM3-GA7.1"
+        ],
+        "land": [
+            "JULES-HadGEM3-GL7.1"
+        ],
+        "ocean": [
+            "MOM4p1"
+        ],
+        "seaIce": [
+            "CICE-HadGEM3-GSI8"
+        ]
+    },
+    "KIOST-ESM": {
+        "atmos": [
+            "GFDL-AM2.0"
+        ],
+        "atmosChem": [
+            "Simple carbon aerosol model"
+        ],
+        "land": [
+            "NCAR-CLM4"
+        ],
+        "landIce": [
+            "NCAR-CLM4"
+        ],
+        "ocean": [
+            "GFDL-MOM5.0"
+        ],
+        "ocnBgchem": [
+            "TOPAZ2"
+        ],
+        "seaIce": [
+            "GFDL-SIS"
+        ]
+    },
+    "MCM-UA-1-0": {
+        "atmos": [
+            "R30L14"
+        ],
+        "land": [
+            "Manabe"
+        ],
+        "ocean": [
+            "MOM1.0",
+            "MOM1"
+        ]
+    },
+    "MIROC-ES2H": {
+        "aerosol": [
+            "SPRINTARS6.0"
+        ],
+        "atmos": [
+            "CCSR AGCM"
+        ],
+        "atmosChem": [
+            "CHASER4.0"
+        ],
+        "land": [
+            "MATSIRO6.0",
+            "VISIT-e"
+        ],
+        "ocean": [
+            "COCO4.9"
+        ],
+        "ocnBgchem": [
+            "OECO ver.2.0"
+        ],
+        "seaIce": [
+            "COCO4.9"
+        ]
+    },
+    "MIROC-ES2H-NB": {
+        "aerosol": [
+            "SPRINTARS6.0"
+        ],
+        "atmos": [
+            "CCSR AGCM"
+        ],
+        "atmosChem": [
+            "CHASER4.0"
+        ],
+        "land": [
+            "MATSIRO6"
+        ],
+        "ocean": [
+            "COCO4.9"
+        ],
+        "seaIce": [
+            "COCO4.9"
+        ]
+    },
+    "MIROC-ES2L": {
+        "aerosol": [
+            "SPRINTARS6.0"
+        ],
+        "atmos": [
+            "CCSR AGCM"
+        ],
+        "land": [
+            "MATSIRO6.0",
+            "VISIT-e"
+        ],
+        "ocean": [
+            "COCO4.9"
+        ],
+        "ocnBgchem": [
+            "OECO ver.2.0"
+        ],
+        "seaIce": [
+            "COCO4.9"
+        ]
+    },
+    "MIROC6": {
+        "aerosol": [
+            "SPRINTARS6.0"
+        ],
+        "atmos": [
+            "CCSR AGCM"
+        ],
+        "land": [
+            "MATSIRO6.0"
+        ],
+        "ocean": [
+            "COCO4.9"
+        ],
+        "seaIce": [
+            "COCO4.9"
+        ]
+    },
+    "MPI-ESM-1-2-HAM": {
+        "aerosol": [
+            "HAM2.3"
+        ],
+        "atmos": [
+            "ECHAM6.3"
+        ],
+        "land": [
+            "JSBACH 3.20"
+        ],
+        "ocean": [
+            "MPIOM1.63"
+        ],
+        "ocnBgchem": [
+            "HAMOCC6"
+        ],
+        "seaIce": [
+            "Semtner zero-layer",
+            "Hibler 79"
+        ]
+    },
+    "MPI-ESM1-2-HR": {
+        "aerosol": [
+            "MACv2-SP"
+        ],
+        "atmos": [
+            "ECHAM6.3"
+        ],
+        "land": [
+            "JSBACH3.20"
+        ],
+        "ocean": [
+            "MPIOM1.63"
+        ],
+        "ocnBgchem": [
+            "HAMOCC6"
+        ],
+        "seaIce": [
+            "Semtner zero-layer",
+            "Hibler 79"
+        ]
+    },
+    "MPI-ESM1-2-LR": {
+        "aerosol": [
+            "MACv2-SP"
+        ],
+        "atmos": [
+            "ECHAM6.3"
+        ],
+        "land": [
+            "JSBACH3.20"
+        ],
+        "ocean": [
+            "MPIOM1.63"
+        ],
+        "ocnBgchem": [
+            "HAMOCC6"
+        ],
+        "seaIce": [
+            "Semtner zero-layer",
+            "Hibler 79"
+        ]
+    },
+    "MPI-ESM1-2-XR": {
+        "aerosol": [
+            "MACv2-SP"
+        ],
+        "atmos": [
+            "ECHAM6.3"
+        ],
+        "land": [
+            "JSBACH3.20"
+        ],
+        "ocean": [
+            "MPIOM1.63"
+        ],
+        "ocnBgchem": [
+            "HAMOCC6"
+        ],
+        "seaIce": [
+            "Semtner zero-layer",
+            "Hibler 79"
+        ]
+    },
+    "MRI-AGCM3-2-H": {
+        "aerosol": [
+            "MRI-ESM2.0"
+        ],
+        "atmos": [
+            "MRI-AGCM3.2H"
+        ],
+        "land": [
+            "SIB0109"
+        ]
+    },
+    "MRI-AGCM3-2-S": {
+        "aerosol": [
+            "MRI-ESM2.0"
+        ],
+        "atmos": [
+            "MRI-AGCM3.2S"
+        ],
+        "land": [
+            "SIB0109"
+        ]
+    },
+    "MRI-ESM2-0": {
+        "aerosol": [
+            "MASINGAR mk2r4"
+        ],
+        "atmos": [
+            "MRI-AGCM3.5"
+        ],
+        "atmosChem": [
+            "MRI-CCM2.1"
+        ],
+        "land": [
+            "HAL"
+        ],
+        "ocean": [
+            "MRI.COM4.4"
+        ],
+        "ocnBgchem": [
+            "MRI.COM4.4"
+        ],
+        "seaIce": [
+            "MRI.COM4.4"
+        ]
+    },
+    "NESM3": {
+        "atmos": [
+            "ECHAM v6.3"
+        ],
+        "land": [
+            "JSBACH v3.1"
+        ],
+        "ocean": [
+            "NEMO v3.4"
+        ],
+        "seaIce": [
+            "CICE4.1"
+        ]
+    },
+    "NICAM16-7S": {
+        "aerosol": [
+            "MACv2-SP"
+        ],
+        "atmos": [
+            "NICAM.16"
+        ],
+        "land": [
+            "MATSIRO6",
+            "MOSAIC"
+        ]
+    },
+    "NICAM16-8S": {
+        "aerosol": [
+            "MACv2-SP"
+        ],
+        "atmos": [
+            "NICAM.16"
+        ],
+        "land": [
+            "MATSIRO6",
+            "MOSAIC"
+        ]
+    },
+    "NICAM16-9S": {
+        "aerosol": [
+            "MACv2-SP"
+        ],
+        "atmos": [
+            "NICAM.16"
+        ],
+        "land": [
+            "MATSIRO6",
+            "MOSAIC"
+        ]
+    },
+    "NorCPM1": {
+        "aerosol": [
+            "OsloAero4.1"
+        ],
+        "atmos": [
+            "CAM-OSLO4.1"
+        ],
+        "atmosChem": [
+            "OsloChemSimp4.1"
+        ],
+        "land": [
+            "CLM4"
+        ],
+        "ocean": [
+            "MICOM1.1"
+        ],
+        "ocnBgchem": [
+            "HAMOCC5.1"
+        ],
+        "seaIce": [
+            "CICE4"
+        ]
+    },
+    "NorESM1-F": {
+        "atmos": [
+            "CAM4"
+        ],
+        "land": [
+            "CLM4"
+        ],
+        "landIce": [
+            "CISM"
+        ],
+        "ocean": [
+            "MICOM"
+        ],
+        "ocnBgchem": [
+            "HAMOCC5.1"
+        ],
+        "seaIce": [
+            "CICE4"
+        ]
+    },
+    "NorESM2-LM": {
+        "aerosol": [
+            "OsloAero"
+        ],
+        "atmos": [
+            "CAM-OSLO"
+        ],
+        "atmosChem": [
+            "OsloChemSimp"
+        ],
+        "land": [
+            "CLM"
+        ],
+        "landIce": [
+            "CISM"
+        ],
+        "ocean": [
+            "MICOM"
+        ],
+        "ocnBgchem": [
+            "HAMOCC"
+        ],
+        "seaIce": [
+            "CICE"
+        ]
+    },
+    "NorESM2-MM": {
+        "aerosol": [
+            "OsloAero"
+        ],
+        "atmos": [
+            "CAM-OSLO"
+        ],
+        "atmosChem": [
+            "OsloChemSimp"
+        ],
+        "land": [
+            "CLM"
+        ],
+        "landIce": [
+            "CISM"
+        ],
+        "ocean": [
+            "MICOM"
+        ],
+        "ocnBgchem": [
+            "HAMOCC"
+        ],
+        "seaIce": [
+            "CICE"
+        ]
+    },
+    "PCMDI-test-1-0": {
+        "atmos": [
+            "Earth1.0-gettingHotter"
+        ],
+        "land": [
+            "Earth1.0"
+        ],
+        "ocean": [
+            "BlueMarble1.0-warming"
+        ]
+    },
+    "SAM0-UNICON": {
+        "aerosol": [
+            "MAM3"
+        ],
+        "atmos": [
+            "CAM5.3",
+            "UNICON"
+        ],
+        "land": [
+            "CLM4.0"
+        ],
+        "ocean": [
+            "POP2"
+        ],
+        "seaIce": [
+            "CICE4.0"
+        ]
+    },
+    "TaiESM1": {
+        "aerosol": [
+            "SNAP"
+        ],
+        "atmos": [
+            "TaiAM1"
+        ],
+        "atmosChem": [
+            "SNAP"
+        ],
+        "land": [
+            "CLM4.0"
+        ],
+        "ocean": [
+            "POP2"
+        ],
+        "seaIce": [
+            "CICE4"
+        ]
+    },
+    "TaiESM1-TIMCOM": {
+        "aerosol": [
+            "SNAP"
+        ],
+        "atmos": [
+            "TaiAM1"
+        ],
+        "atmosChem": [
+            "SNAP"
+        ],
+        "land": [
+            "CLM4.0"
+        ],
+        "ocean": [
+            "TIMCOMv1.7"
+        ],
+        "seaIce": [
+            "CICE4"
+        ]
+    },
+    "TaiESM1-TIMCOM2": {
+        "aerosol": [
+            "SNAP"
+        ],
+        "atmos": [
+            "TaiAM1"
+        ],
+        "atmosChem": [
+            "SNAP"
+        ],
+        "land": [
+            "CLM4.0"
+        ],
+        "ocean": [
+            "TIMCOMv2.2"
+        ],
+        "seaIce": [
+            "CICE4"
+        ]
+    },
+    "UKESM1-0-LL": {
+        "aerosol": [
+            "UKCA-GLOMAP-mode"
+        ],
+        "atmos": [
+            "MetUM-HadGEM3-GA7.1"
+        ],
+        "atmosChem": [
+            "UKCA-StratTrop"
+        ],
+        "land": [
+            "JULES-ES-1.0"
+        ],
+        "ocean": [
+            "NEMO-HadGEM3-GO6.0"
+        ],
+        "ocnBgchem": [
+            "MEDUSA2"
+        ],
+        "seaIce": [
+            "CICE-HadGEM3-GSI8"
+        ]
+    },
+    "UKESM1-1-LL": {
+        "aerosol": [
+            "UKCA-GLOMAP-mode"
+        ],
+        "atmos": [
+            "MetUM-HadGEM3-GA7.1"
+        ],
+        "atmosChem": [
+            "UKCA-StratTrop"
+        ],
+        "land": [
+            "JULES-ES-1.0"
+        ],
+        "ocean": [
+            "NEMO-HadGEM3-GO6.0"
+        ],
+        "ocnBgchem": [
+            "MEDUSA2"
+        ],
+        "seaIce": [
+            "CICE-HadGEM3-GSI8"
+        ]
+    },
+    "UKESM1-ice-LL": {
+        "aerosol": [
+            "UKCA-GLOMAP-mode"
+        ],
+        "atmos": [
+            "MetUM-HadGEM3-GA7.1"
+        ],
+        "land": [
+            "JULES-ISMIP6-1.0"
+        ],
+        "landIce": [
+            "BISICLES-UKESM-ISMIP6-1.0"
+        ],
+        "ocean": [
+            "NEMO-HadGEM3-GO6.0"
+        ],
+        "seaIce": [
+            "CICE-HadGEM3-GSI8"
+        ]
+    }
+}
