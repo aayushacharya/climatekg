@@ -45,7 +45,7 @@ Paper: [Ontology-Guided Knowledge Graph Construction from Structured Metadata an
 | Version | Publications | Nodes | Edges | Node labels | Relation types |
 | --- | ---: | ---: | ---: | ---: | ---: |
 | `v1` (AACL 2026 paper) | 2,000 | 133,990 | 755,310 | 49 | 59 |
-| `v2` (expanded corpus) | 10,911 | 373,690 | 2,009,468 | 49 | 65 |
+| `v2` (expanded corpus) | 10,910 | 373,684 | 2,009,392 | 49 | 65 |
 
 `v1` is the graph evaluated in the paper. Use it to reproduce the paper's results. `v2` runs the same pipeline over a larger corpus: the AACL papers plus publications cited in the IPCC AR6 Working Group I, II and III reports, papers reached by citation expansion, and the WCRP-CMIP Zotero library. The two versions were built separately, so node uuids are not shared between them. Match nodes across versions by name, or by the `id` property for papers (an OpenAlex id).
 
@@ -90,7 +90,7 @@ The allowed (source type, relation, target type) combinations are defined by the
 ## Notes
 
 - The `v1` edge table is the released `data/kg/edges_20260622` dump without its 70,829 edges to ESGF `Source` nodes that are missing from the metadata snapshot. The paper reports 755,308 relations, counted in Neo4j after loading this dump.
-- `v2` is an export of the loaded Neo4j graph. Bookkeeping nodes from the RDF export (labels starting with `_`) are left out.
+- `v2` is an export of the loaded Neo4j graph. Bookkeeping nodes from the RDF export (labels starting with `_`) are left out, and so are papers added by hand through the project website, which did not go through the extraction pipeline.
 - The per-paper pipeline outputs of `v1` (every candidate triplet with its evidence span and the verdict of each verification stage) are in the GitHub repository under `data/pipeline_outputs/`. PDFs and parsed full texts are not redistributed.
 
 ## License

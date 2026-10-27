@@ -41,6 +41,8 @@ EDGE_SCHEMA = pa.schema([
     ("properties", pa.string()),
 ])
 BATCH_SIZE = 100_000
+# Set by v2/site's paper submission form on papers that skipped the extraction pipeline
+SUBMISSION_PROVENANCE = "user_submission"
 
 
 def node_row(label, props):
@@ -114,19 +116,39 @@ def build_v1(kg_dir, date, out_dir):
     print(f"v1: {n_nodes:,} nodes, {n_edges:,} edges ({dangling:,} dangling edges dropped)")
 
 
+def submitted_uuids(session):
+    """Uuids of papers added by hand through the site's submission form, plus the
+    Author, Keyword and Venue nodes that only those papers reference. The form marks
+    the Paper node with provenance but MERGEs the others without a marker."""
+    papers = {r["u"] for r in session.run(
+        "MATCH (p:Paper {provenance: $prov}) RETURN p.uuid AS u", prov=SUBMISSION_PROVENANCE)}
+    orphans = {r["u"] for r in session.run(
+        "MATCH (p:Paper {provenance: $prov})--(n) "
+        "WHERE (n:Author OR n:Keyword OR n:Venue) "
+        "AND NOT EXISTS { MATCH (n)--(q) WHERE coalesce(q.provenance, '') <> $prov } "
+        "RETURN DISTINCT n.uuid AS u", prov=SUBMISSION_PROVENANCE)}
+    return papers, orphans
+
+
 def build_v2(uri, auth, database, out_dir):
     """Export the loaded graph. Labels starting with '_' are neosemantics (n10s)
-    bookkeeping left by export_rdf.py and are not part of the KG."""
+    bookkeeping left by export_rdf.py and are not part of the KG. Hand-submitted
+    papers are left out, so v2 holds only what the extraction pipeline produced."""
     from neo4j import GraphDatabase
 
     os.makedirs(out_dir, exist_ok=True)
     kg_node = "NOT any(l IN labels(n) WHERE l STARTS WITH '_')"
     with GraphDatabase.driver(uri, auth=auth) as driver, driver.session(database=database) as session:
+        papers, orphans = submitted_uuids(session)
+        excluded = papers | orphans
+        print(f"v2: leaving out {len(papers):,} submitted papers and {len(orphans):,} nodes only they reference")
+
         total = session.run(f"MATCH (n) WHERE {kg_node} RETURN count(n) AS c").single()["c"]
         writer = BatchedWriter(os.path.join(out_dir, "nodes.parquet"), NODE_SCHEMA)
         result = session.run(f"MATCH (n) WHERE {kg_node} RETURN labels(n)[0] AS label, properties(n) AS props")
         for record in tqdm(result, total=total, desc="v2 nodes"):
-            writer.add(node_row(record["label"], record["props"]))
+            if record["props"]["uuid"] not in excluded:
+                writer.add(node_row(record["label"], record["props"]))
         n_nodes = writer.close()
 
         kg_edge = kg_node.replace("(n)", "(a)") + " AND " + kg_node.replace("(n)", "(b)")
@@ -137,6 +159,8 @@ def build_v2(uri, auth, database, out_dir):
             "RETURN a.uuid AS source, labels(a)[0] AS source_label, type(r) AS relation, "
             "b.uuid AS target, labels(b)[0] AS target_label, properties(r) AS props")
         for record in tqdm(result, total=total, desc="v2 edges"):
+            if record["source"] in excluded or record["target"] in excluded:
+                continue
             writer.add(edge_row(record["source"], record["source_label"], record["relation"],
                                 record["target"], record["target_label"], record["props"]))
         n_edges = writer.close()

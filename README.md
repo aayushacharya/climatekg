@@ -48,7 +48,7 @@ The corpus is split into two partitions, `2026-02-01` (1,007 papers) and `2026-0
 
 The Cypher dump has 826,139 edge statements. 70,829 of them reference ESGF `Source` nodes that are not in the metadata snapshot, so Neo4j skips them on load, which leaves the 755k relations reported in the paper. PDFs and parsed full texts are not redistributed. The 1,000 human-annotated triplets used in the agreement study are also not part of this release.
 
-The KG is also on Hugging Face as Parquet node and edge tables, in two versions: `v1` is the 2,000-publication graph of this release and `v2` is an expanded graph of 10,911 publications built with the same pipeline:
+The KG is also on Hugging Face as Parquet node and edge tables, in two versions: `v1` is the 2,000-publication graph of this release and `v2` is an expanded graph of 10,910 publications built with the same pipeline:
 
 ```python
 from datasets import load_dataset
