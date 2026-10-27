@@ -25,6 +25,7 @@ transformers==4.45.2
 sentence-transformers==2.7.0
 einops==0.8.0
 datasets==2.21.0
+pyarrow==18.1.0                    # scripts/build_hf_dataset.py
 
 # Optional: RDF export, ontology diagram, CORDEX domains, recall report
 rdflib==7.1.3
